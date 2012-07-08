@@ -1,0 +1,4 @@
+<?php
+class Plugg_SimpleSearch_Model_TextGateway extends Plugg_SimpleSearch_Model_Base_TextGateway
+{
+}

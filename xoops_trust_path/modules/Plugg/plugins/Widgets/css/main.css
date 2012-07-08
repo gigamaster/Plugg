@@ -1,0 +1,7 @@
+#plugg .widgets-widgets {padding:0; width:100%;}
+#plugg .widgets-widgets td {padding:0; vertical-align:top; background-color:transparent;}
+#plugg td.widgets-widgets-left {padding-right:10px; width:50%;}
+#plugg td.widgets-widgets-right {padding-left:10px; width:50%;}
+#plugg .widgets-widgets,
+#plugg .widgets-widgets tr,
+#plugg .widgets-widgets td {border:none;}

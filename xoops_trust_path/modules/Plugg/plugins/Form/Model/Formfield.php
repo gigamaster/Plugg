@@ -1,0 +1,7 @@
+<?php
+class Plugg_Form_Model_Formfield extends Plugg_Form_Model_Base_Formfield{
+}
+
+class Plugg_Form_Model_FormfieldRepository extends Plugg_Form_Model_Base_FormfieldRepository
+{
+}

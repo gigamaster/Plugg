@@ -1,0 +1,6 @@
+.plugg .aggregator-links {margin:0;}
+.plugg .aggregator-links {float:right; margin:5px;}
+.plugg ul.aggregator-links li {display:inline; list-style:none; margin-left:0; margin-right:5px;}
+.plugg div.aggregator-pagination {clear:both; text-align:center; margin-top:20px;}
+.plugg div.aggregator-feeds,
+.plugg div.aggregator-items {margin-bottom:20px;}

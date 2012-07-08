@@ -1,0 +1,8 @@
+<?php
+class Plugg_Search_Model_Searchable extends Plugg_Search_Model_Base_Searchable
+{
+}
+
+class Plugg_Search_Model_SearchableRepository extends Plugg_Search_Model_Base_SearchableRepository
+{
+}

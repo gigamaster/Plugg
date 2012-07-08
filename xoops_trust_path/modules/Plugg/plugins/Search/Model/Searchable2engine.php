@@ -1,0 +1,7 @@
+<?php
+class Plugg_Search_Model_Searchable2engine extends Plugg_Search_Model_Base_Searchable2engine{
+}
+
+class Plugg_Search_Model_Searchable2engineRepository extends Plugg_Search_Model_Base_Searchable2engineRepository
+{
+}

@@ -1,0 +1,8 @@
+<?php
+class Plugg_User_Model_Activewidget extends Plugg_User_Model_Base_Activewidget
+{
+}
+
+class Plugg_User_Model_ActivewidgetRepository extends Plugg_User_Model_Base_ActivewidgetRepository
+{
+}

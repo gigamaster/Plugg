@@ -1,0 +1,10 @@
+.plugg-xoopscube-widget {margin:0; padding:5px;}
+.plugg-xoopscube-widget ul, .plugg-xoopscube-widget li {list-style:none; margin:0; padding:0;}
+li.plugg-xoopscube-widget-entry {padding:5px 0 10px 0; border-bottom:1px dotted #ddd; clear:both;}
+.plugg-xoopscube-widget-entries li:last-child {border-bottom:none;}
+.plugg-xoopscube-widget-entry-icon {float:left;}
+.plugg-xoopscube-widget-entry-with-icon {padding-left:22px !important;}
+.plugg-xoopscube-widget-entry-title {margin:0; font-size:1.1em; font-weight:bold;}
+.plugg-xoopscube-widget-entry-meta li {font-size:0.85em; font-weight:lighter; display:inline; margin:0; border-left:1px solid #ddd; padding:0 4px 0 6px;}
+.plugg-xoopscube-widget-entry-meta li:first-child {border-left:none; padding-left:0;}
+.plugg-xoopscube-widget-entry-body {padding:5px 0;}

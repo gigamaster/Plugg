@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 14:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "HTMLPurifier library settings"
+msgstr ""
+
+msgid ""
+"Some plugins use the HTMLPurifier library to filter HTML contents. Here you "
+"can configure the default settings of the library."
+msgstr ""
+
+msgid "Cache directory"
+msgstr ""
+
+msgid "Enter fullpath without a trailing slash"
+msgstr ""
+
+#, php-format
+msgid ""
+"Path to a directory where HTMLPurifier cache files are stored. This path "
+"must be writable by the webserver. Leave it blank to use the default "
+"directory: %s"
+msgstr ""
+
+msgid "Disable external resources"
+msgstr ""
+
+msgid ""
+"Disables the embedding of external resources, preventing users from "
+"embedding things like images from other hosts."
+msgstr ""
+
+msgid "Auto linkify"
+msgstr ""
+
+msgid ""
+"Enable this option to automagically convert URLs in user posts to HTML links."
+msgstr ""
+
+msgid "Auto paragraph"
+msgstr ""
+
+msgid ""
+"Enable this option to convert double newlines in user posts to paragraphs. p "
+"tags must be allowed for this directive to take effect. We do not use br "
+"tags for paragraphing, as that is semantically incorrect."
+msgstr ""
+
+msgid ""
+"HTML tags allowed to be used. Separate tags with a comma. If you are not "
+"sure what to enter here, it is recommended that you leave this option as-is."
+msgstr ""
+
+msgid "HTMLPurifier cache directories"
+msgstr ""
+
+msgid "Configured correctly"
+msgstr ""
+
+msgid "Not configured correctly"
+msgstr ""
+
+msgid "The following directories/files need to be writable by the web server:"
+msgstr ""
+
+#~ msgid "Filtered HTML"
+#~ msgstr "HTMLフィルタ"
+
+#~ msgid ""
+#~ "Uses the HTMLPurifier library to process and purify user submitted "
+#~ "content."
+#~ msgstr ""
+#~ "HTMLPurifierライブラリを使用してユーザが投稿したコンテンツのHTMLの調整およ"
+#~ "びフィルタリング処理を行います。"

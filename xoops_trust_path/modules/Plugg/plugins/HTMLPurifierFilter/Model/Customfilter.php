@@ -1,0 +1,7 @@
+<?php
+class Plugg_HTMLPurifierFilter_Model_Customfilter extends Plugg_HTMLPurifierFilter_Model_Base_Customfilter{
+}
+
+class Plugg_HTMLPurifierFilter_Model_CustomfilterRepository extends Plugg_HTMLPurifierFilter_Model_Base_CustomfilterRepository
+{
+}

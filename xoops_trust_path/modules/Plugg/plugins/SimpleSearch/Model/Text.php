@@ -1,0 +1,8 @@
+<?php
+class Plugg_SimpleSearch_Model_Text extends Plugg_SimpleSearch_Model_Base_Text
+{
+}
+
+class Plugg_SimpleSearch_Model_TextRepository extends Plugg_SimpleSearch_Model_Base_TextRepository
+{
+}

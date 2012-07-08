@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 20:14+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Select personal relationships between you and your friend."
+msgstr ""
+
+msgid "Friend"
+msgstr ""
+
+msgid "No selection"
+msgstr ""
+
+msgid "Relationships"
+msgstr ""
+
+msgid "Friendship"
+msgstr ""
+
+msgid "Physical"
+msgstr ""
+
+msgid "Professional"
+msgstr ""
+
+msgid "Geographical"
+msgstr ""
+
+msgid "Family"
+msgstr ""
+
+msgid "Romantic"
+msgstr ""
+
+msgid "You must select at least one relationship."
+msgstr ""
+
+msgid "Received friend requests"
+msgstr ""
+
+msgid "Sent friend requests"
+msgstr ""
+
+msgid "Could not accept selected requests"
+msgstr ""
+
+msgid "Selected requests acceptd successfully"
+msgstr ""
+
+msgid "Could not reject selected requests"
+msgstr ""
+
+msgid "Selected requests rejected"
+msgstr ""
+
+msgid "Could not remove selected users from the friend list"
+msgstr ""
+
+msgid "Selected users removed from friend list successfully"
+msgstr ""
+
+msgid "You have already added the user as a friend."
+msgstr ""
+
+msgid "There is a pending friend request sent to you from this user."
+msgstr ""
+
+msgid "You have recently sent a friend request to this user."
+msgstr ""
+
+msgid "You are now friends."
+msgstr ""
+
+#, php-format
+msgid "Your friend request to %s submitted successfully."
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Add as friend"
+msgstr ""
+
+msgid "Send friend request"
+msgstr ""
+
+msgid "Manage friends"
+msgstr ""
+
+msgid "Requests"
+msgstr ""
+
+msgid "Edit friend relationships"
+msgstr ""
+
+msgid "Friends list"
+msgstr ""
+
+msgid "Manage other user's friends data"
+msgstr ""
+
+msgid "Friends"
+msgstr ""
+
+msgid "Displays friends of the user."
+msgstr ""
+
+msgid "Number of friends to display"
+msgstr ""
+
+#, php-format
+msgid "Relationship: %s"
+msgstr ""
+
+msgid "New friend requests"
+msgstr ""
+
+#, php-format
+msgid "Friend requests (<strong>%d</strong>)"
+msgstr ""
+
+msgid "contact"
+msgstr ""
+
+msgid "acquaintance"
+msgstr ""
+
+msgid "friend"
+msgstr ""
+
+msgid "met"
+msgstr ""
+
+msgid "co-worker"
+msgstr ""
+
+msgid "colleague"
+msgstr ""
+
+msgid "co-resident"
+msgstr ""
+
+msgid "neighbor"
+msgstr ""
+
+msgid "child"
+msgstr ""
+
+msgid "parent"
+msgstr ""
+
+msgid "sibling"
+msgstr ""
+
+msgid "spouse"
+msgstr ""
+
+msgid "kin"
+msgstr ""
+
+msgid "muse"
+msgstr ""
+
+msgid "crush"
+msgstr ""
+
+msgid "date"
+msgstr ""
+
+msgid "sweetheart"
+msgstr ""
+
+msgid "me"
+msgstr ""
+
+msgid "User ID, ascending"
+msgstr ""
+
+msgid "User ID, descending"
+msgstr ""
+
+msgid "Date added, ascending"
+msgstr ""
+
+msgid "Date added, descending"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Date added"
+msgstr ""
+
+msgid "Date received, ascending"
+msgstr ""
+
+msgid "Date received, descending"
+msgstr ""
+
+msgid "Received on"
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Reject"
+msgstr ""
+
+msgid "Date sent, ascending"
+msgstr ""
+
+msgid "Date sent, descending"
+msgstr ""
+
+msgid "Sent on"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Rejected"
+msgstr ""

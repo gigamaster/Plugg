@@ -1,0 +1,23 @@
+#plugg .user-summary {margin-top:5px;}
+
+#plugg ul.user-stat {margin:0; margin-top:3px; text-align:center; padding:0;}
+#plugg ul.user-stat li {list-style:none; font-size:0.85em; margin:0; padding:0;}
+#plugg ul.user-stat li span.user-stat-label {color:#888;}
+
+#plugg .user-images {float:left; width:170px; text-align:center; margin:0;}
+#plugg .user-image {border:1px solid #ccc; padding:10px;}
+#plugg span.user-image-edit {display:block; font-size:0.87em; margin-top:3px;}
+
+#plugg .user-status {padding:5px; border:5px solid #ddf; margin:0; text-align:left; font-size:0.85em; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; -khtml-border-radius:15px;}
+#plugg .user-status-point {background:#ddf url('./image.php?plugin=User&file=point.png') no-repeat scroll 0 0; width:24px; height:12px; margin:0 auto; margin-top:5px;}
+#plugg .user-status-edit {text-align:right; font-size:0.85em;}
+
+#plugg .user-profile {margin-left:196px;}
+
+#plugg .user-widgets {padding:0; margin-top:16px; width:100%;}
+#plugg .user-widgets td {padding:0; vertical-align:top; background-color:transparent;}
+#plugg td.user-widgets-left {padding-right:10px; width:50%;}
+#plugg td.user-widgets-right {padding-left:10px; width:50%;}
+#plugg .user-widgets,
+#plugg .user-widgets tr,
+#plugg .user-widgets td {border:none;}

@@ -1,0 +1,16 @@
+#plugg .search-result {padding:0 5px;}
+#plugg .search-result dl,
+#plugg .search-result dl dt,
+#plugg .search-result dl dd {margin:0; padding:0;}
+#plugg .search-result dl dt a {font-size:1.2em;}
+#plugg .search-result dl dt {font-weight:normal;}
+#plugg .search-result dl dd.search-result-data {margin-bottom:17px;}
+#plugg-search-results {margin-top:15px;}
+#plugg .search-result-showall {margin:10px 0;}
+#plugg dl.search-data {margin-bottom:10px;}
+#plugg .search-data dt,
+#plugg .search-data dd {display:inline; margin:0;}
+#plugg .search-data dd {margin-left:3px;}
+#plugg .search-result-showall,
+#plugg .search-result-nav {margin:15px 0; text-align:center;}
+#plugg .search-result-data span {color:green;}

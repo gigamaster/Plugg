@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 14:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Default permitted file extensions"
+msgstr ""
+
+msgid "Separate extensions with a space and do not include the leading dot"
+msgstr ""
+
+msgid ""
+"Only files with the specified file extensions will be allowed to upload."
+msgstr ""
+
+msgid "Default maximum file size"
+msgstr ""
+
+msgid "Enter a numeric value in kilo bytes"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enter the maximum file size per upload. The value should not exceed the "
+"upload_max_filesize setting in php.ini: %dkb"
+msgstr ""
+
+msgid "The configuration options have been saved."
+msgstr ""

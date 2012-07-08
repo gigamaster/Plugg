@@ -1,0 +1,905 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-03 21:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Are you sure you want to delete this authentication data?"
+msgstr ""
+
+msgid "Remove auth data"
+msgstr ""
+
+msgid "Could not remove selected authentication data"
+msgstr ""
+
+#, php-format
+msgid "%d authentication data removed successfully"
+msgstr ""
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+msgid "An error occurred while updating data."
+msgstr ""
+
+msgid "Data updated successfully."
+msgstr ""
+
+#, php-format
+msgid "%d auto-login session(s) deleted successfully."
+msgstr ""
+
+msgid "Confirmation mail sent successfully."
+msgstr ""
+
+msgid "An error occurred while sending confirmation mail."
+msgstr ""
+
+msgid "A new role created successfully."
+msgstr ""
+
+msgid "Are you sure you want to delete this role?"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Selected role deleted successfully."
+msgstr ""
+
+msgid "User name"
+msgstr ""
+
+msgid "The role has been assigned to the user successfully."
+msgstr ""
+
+msgid "The user does not exist."
+msgstr ""
+
+msgid "The role is already assigned to the user."
+msgstr ""
+
+msgid "You may not remove yourself from the system defined role"
+msgstr ""
+
+msgid "Remove member"
+msgstr ""
+
+msgid "Are you sure you want to delete this member?"
+msgstr ""
+
+msgid "Could not remove selected members"
+msgstr ""
+
+#, php-format
+msgid "%d members(s) removed successfully"
+msgstr ""
+
+msgid "Registration confirmation email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize email messages sent to users upon user registration. Available "
+"tags are: %s"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "User registration confirmation for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Hello {USER_NAME},"
+msgstr ""
+
+msgid ""
+"The email address ({USER_EMAIL}) has been used to register an account at "
+"{SITE_NAME}."
+msgstr ""
+
+msgid ""
+"To become a member of {SITE_NAME}, please confirm your request by clicking "
+"on the link below:"
+msgstr ""
+
+msgid "Account activation email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize email messages sent to users upon account activation. Available "
+"tags are: %s"
+msgstr ""
+
+msgid "Notify user when account is activated."
+msgstr ""
+
+msgid "Account details for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid "Your user account registration at {SITE_NAME} is complete."
+msgstr ""
+
+msgid ""
+"You can now login from the following URL with the password you have provided "
+"upon registration:"
+msgstr ""
+
+msgid "Email modification confirmation email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize email messages sent to users upon user email modification. "
+"Available tags are: %s"
+msgstr ""
+
+msgid "Email modification confirmation for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid ""
+"The email address ({USER_EMAIL}) has been used for a user account at "
+"{SITE_NAME}."
+msgstr ""
+
+msgid "Please click on the link below to confirm the email address:"
+msgstr ""
+
+msgid "Password request confirmation email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize email messages sent to users upon new password request. Available "
+"tags are: %s"
+msgstr ""
+
+msgid "New user password request for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid ""
+"A web user from {IP} has just requested a new password for your user account "
+"at {SITE_NAME}."
+msgstr ""
+
+msgid ""
+"Please click on the link below to confirm the request and receive a new "
+"password:"
+msgstr ""
+
+msgid "If you did not ask for this, you can just ignore this email."
+msgstr ""
+
+msgid "New password email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize email messages sent to users containing new password. Available "
+"tags are: %s"
+msgstr ""
+
+msgid "New user password for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid "Here are your login details:"
+msgstr ""
+
+msgid "Username: {USER_NAME}"
+msgstr ""
+
+msgid "New Password: {USER_PASSWORD}"
+msgstr ""
+
+msgid "You can change the password after you login from the following URL:"
+msgstr ""
+
+msgid "Configure"
+msgstr ""
+
+msgid "User management plugin"
+msgstr ""
+
+msgid ""
+"IMPORTANT! If you are switching to another plugin, make sure that the new "
+"plugin already has valid user accounts. Otherwise, you may not be able to "
+"login and/or may result in corruputed user system."
+msgstr ""
+
+msgid "Privacy settings"
+msgstr ""
+
+msgid "Allow anyone including guest users to view any user profile"
+msgstr ""
+
+msgid "Registration settings"
+msgstr ""
+
+msgid "Allow new user registration"
+msgstr ""
+
+msgid "Select activation type of newly registered users"
+msgstr ""
+
+msgid "Require activation by user"
+msgstr ""
+
+msgid "Activate automatically"
+msgstr ""
+
+msgid "Activation by administrators"
+msgstr ""
+
+msgid "Autologin settings"
+msgstr ""
+
+msgid "Allow users to keep logged in for specific range of time"
+msgstr ""
+
+msgid "Number of days users can keep logged in"
+msgstr ""
+
+msgid "Limit only one autologin session to be created per user"
+msgstr ""
+
+msgid "Invalid role"
+msgstr ""
+
+msgid "Could not assign role to selected users"
+msgstr ""
+
+#, php-format
+msgid "%d users(s) assigned role successfully"
+msgstr ""
+
+msgid "Could not remove role from selected users"
+msgstr ""
+
+#, php-format
+msgid "%d users(s) removed role successfully"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Custom title"
+msgstr ""
+
+msgid "Private"
+msgstr ""
+
+msgid "Cache lifetime"
+msgstr ""
+
+msgid "No cache"
+msgstr ""
+
+msgid "1 minute"
+msgstr ""
+
+#, php-format
+msgid "%d minutes"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+#, php-format
+msgid "%d hours"
+msgstr ""
+
+msgid "1 day"
+msgstr ""
+
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#, php-format
+msgid ""
+"Login using the form below to associate your user account with the submitted "
+"authentication or <a href=\"%s\">create a new user account and associate it "
+"with the authenticaton</a>."
+msgstr ""
+
+msgid ""
+"Authentication associated with your user account successfully. You can log "
+"in as the user account using the authentication from now on."
+msgstr ""
+
+msgid ""
+"Failed creating association between your user account and the external "
+"authentication used. Try logging in again using the external authentication."
+msgstr ""
+
+msgid ""
+"An error occurred. Please click on the email link again to complete the "
+"process."
+msgstr ""
+
+msgid ""
+"You have been registered successfully. Please login using the username/"
+"password pair submitted during registration."
+msgstr ""
+
+msgid ""
+"An error occurred. Please fill in the registration form again to register."
+msgstr ""
+
+msgid "Your new password has been sent to your registered email address."
+msgstr ""
+
+msgid "An error occurred. Please submit the password request form again."
+msgstr ""
+
+msgid "Your email address has been updated successfully."
+msgstr ""
+
+msgid ""
+"An error occurred. Please submit the form again to change your email address."
+msgstr ""
+
+#, php-format
+msgid ""
+"Additionally, your external authentication data using %s has been associated "
+"with the created account. You can also use that authentication data to login."
+msgstr ""
+
+#, php-format
+msgid ""
+"An error has occurred while associating your external authentication data "
+"with the created account. Please <a href=\"%s\">login again using %s</a> if "
+"you need to associate the authentication data."
+msgstr ""
+
+msgid "User data removed successfully"
+msgstr ""
+
+msgid "Are you sure you want to delete this account?"
+msgstr ""
+
+msgid "Delete account"
+msgstr ""
+
+msgid "Could not delete selected autologin sessions"
+msgstr ""
+
+msgid "Selected autologin sessions deleted successfully"
+msgstr ""
+
+msgid ""
+"Please enter a valid email address for yourself. We will send you an email "
+"shortly that you must confirm to complete the process."
+msgstr ""
+
+msgid "New email address"
+msgstr ""
+
+msgid "Enter your new email address"
+msgstr ""
+
+msgid "Confirm email address"
+msgstr ""
+
+msgid "Enter again for confirmation"
+msgstr ""
+
+msgid ""
+"Email modification request has been submitted successfully. Please check "
+"your email for further instruction."
+msgstr ""
+
+msgid "The email addresses do not match"
+msgstr ""
+
+msgid "New password"
+msgstr ""
+
+msgid "Enter your new password"
+msgstr ""
+
+msgid "Confirm password"
+msgstr ""
+
+msgid "The passwords do not match"
+msgstr ""
+
+#, php-format
+msgid "Remember me on this computer for 1 day"
+msgid_plural "Remember me on this computer for %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"You have been authenticated successfully. However, we were unable to find a "
+"user account that is associated with the authentication."
+msgstr ""
+
+#, php-format
+msgid ""
+"Create a new account using the registration form below or <a href=\"%s"
+"\">associate the authentication with an existing user account</a>."
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "You have logged out successfully."
+msgstr ""
+
+msgid ""
+"Registration data has been submitted successfully. Your account will be "
+"activated after confirmation by the administrator."
+msgstr ""
+
+msgid ""
+"Registration data has been submitted successfully. Please check your email "
+"for further instruction."
+msgstr ""
+
+msgid "Create account"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you already have a user account, you can <a href=\"%s\">associate the "
+"submitted authentication with that account</a>."
+msgstr ""
+
+msgid ""
+"If you have forgotten your username or password, you can request to have "
+"your username emailed to you and to reset your password. When you fill in "
+"your registered email address, you will be sent instructions on how to reset "
+"your password."
+msgstr ""
+
+msgid "Email address"
+msgstr ""
+
+msgid "Enter your registered email address"
+msgstr ""
+
+msgid "Request password"
+msgstr ""
+
+msgid ""
+"Password request has been submitted successfully. Please check your email "
+"for further instruction."
+msgstr ""
+
+msgid "Name is required"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "User registration"
+msgstr ""
+
+msgid "Edit email"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "You must enter the name"
+msgstr ""
+
+msgid "Manage account"
+msgstr ""
+
+msgid "Autologins"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "Edit password"
+msgstr ""
+
+msgid "Edit image"
+msgstr ""
+
+msgid "Update status"
+msgstr ""
+
+msgid "Status message"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "You may not delete your own account while you are a site administrator."
+msgstr ""
+
+msgid "My account"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "User management"
+msgstr ""
+
+msgid "Authentications"
+msgstr ""
+
+msgid "Fields"
+msgstr ""
+
+msgid "Queues"
+msgstr ""
+
+msgid "Roles"
+msgstr ""
+
+msgid "Add role"
+msgstr ""
+
+msgid "Edit role"
+msgstr ""
+
+msgid "Delete role"
+msgstr ""
+
+msgid "Add member"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Email settings"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+#, php-format
+msgid ""
+"Please enter your details below to login. Or <a href=\"%s\">create a new "
+"account</a> if you are still not registered."
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you have forgotten your password, you can <a href=\"%s\">request a new "
+"password</a> to be sent to you registered email address."
+msgstr ""
+
+msgid "You have logged in successfully."
+msgstr ""
+
+msgid "View other user's profile"
+msgstr ""
+
+msgid "Edit own user profile"
+msgstr ""
+
+msgid "Edit other user's profile"
+msgstr ""
+
+msgid "Delete own user profile"
+msgstr ""
+
+msgid "Delete other user's profile"
+msgstr ""
+
+msgid "Edit own user email"
+msgstr ""
+
+msgid "Edit other user's email"
+msgstr ""
+
+msgid "Edit own user image"
+msgstr ""
+
+msgid "Edit other user's image"
+msgstr ""
+
+msgid "Edit own user password"
+msgstr ""
+
+msgid "Edit other user's password"
+msgstr ""
+
+msgid "Edit other user's status message"
+msgstr ""
+
+msgid "View other user's private widget contents"
+msgstr ""
+
+msgid "Your Account"
+msgstr ""
+
+msgid "Displays user account menu."
+msgstr ""
+
+msgid "Displays user login form."
+msgstr ""
+
+msgid "Extra menu items"
+msgstr ""
+
+msgid "New users"
+msgstr ""
+
+msgid "User logins"
+msgstr ""
+
+msgid "User updates"
+msgstr ""
+
+msgid "Displays recently created user accounts."
+msgstr ""
+
+msgid "Displays recent user logins."
+msgstr ""
+
+msgid "Displays recent user profile updates."
+msgstr ""
+
+msgid "Number of entries to display"
+msgstr ""
+
+msgid "Default edit type:"
+msgstr ""
+
+msgid "nobody"
+msgstr ""
+
+msgid "everybody"
+msgstr ""
+
+msgid "registered users"
+msgstr ""
+
+#, php-format
+msgid "friends with \"%s\" relationship"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+#, php-format
+msgid "%s - Visibility"
+msgstr ""
+
+msgid "Auth title"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Plugin"
+msgstr ""
+
+msgid "Data count"
+msgstr ""
+
+msgid "Listing auth data"
+msgstr ""
+
+msgid "Last used"
+msgstr ""
+
+msgid "User ID, ascending"
+msgstr ""
+
+msgid "User ID, descending"
+msgstr ""
+
+msgid "Date created, descending"
+msgstr ""
+
+msgid "Date created, ascending"
+msgstr ""
+
+msgid "Auth ID"
+msgstr ""
+
+msgid ""
+"Expired autologin sessions will be removed automatically if cron job is set "
+"properly. Otherwise, you must delete manually or run cron using the Cron "
+"plugin."
+msgstr ""
+
+msgid "Expires, ascending"
+msgstr ""
+
+msgid "Expires, descending"
+msgstr ""
+
+msgid "Created, ascending"
+msgstr ""
+
+msgid "Created, descending"
+msgstr ""
+
+msgid "Updated, ascending"
+msgstr ""
+
+msgid "Updated, descending"
+msgstr ""
+
+msgid "Expires"
+msgstr ""
+
+msgid "Field title"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Registerable"
+msgstr ""
+
+msgid "Editable"
+msgstr ""
+
+msgid "Viewable"
+msgstr ""
+
+msgid "Configurable"
+msgstr ""
+
+msgid "User name, ascending"
+msgstr ""
+
+msgid "User name, descending"
+msgstr ""
+
+msgid "Email, ascending"
+msgstr ""
+
+msgid "Email, descending"
+msgstr ""
+
+msgid "For each selected user: "
+msgstr ""
+
+msgid "Assign a role"
+msgstr ""
+
+msgid "Remove a role"
+msgstr ""
+
+msgid ""
+"Older queues will be removed automatically if cron job is set properly. "
+"Otherwise, you must delete manually or run cron using the Cron plugin."
+msgstr ""
+
+msgid "Created at"
+msgstr ""
+
+msgid "User/Email"
+msgstr ""
+
+msgid "Process this queue"
+msgstr ""
+
+msgid "Resend confirmation mail"
+msgstr ""
+
+msgid "Role name, ascending"
+msgstr ""
+
+msgid "Role name, descending"
+msgstr ""
+
+msgid "Member count"
+msgstr ""
+
+msgid "Members"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Hide list"
+msgstr ""
+
+msgid "Show list"
+msgstr ""
+
+msgid "Listing members"
+msgstr ""
+
+msgid "Date assigned role, descending"
+msgstr ""
+
+msgid "Date assigned role, ascending"
+msgstr ""
+
+msgid "Date assigned role"
+msgstr ""
+
+msgid "This page requires JavaScript enabled in your browser."
+msgstr ""
+
+msgid ""
+"Choose the widgets you want to add by dragging them from the widgets list on "
+"the right to the area on the left and position them in the order you would "
+"like them to appear."
+msgstr ""
+
+msgid "Active widgets"
+msgstr ""
+
+msgid "edit"
+msgstr ""
+
+msgid "Available widgets"
+msgstr ""
+
+msgid "User since: "
+msgstr ""
+
+msgid "Last login: "
+msgstr ""
+
+msgid "Last login"
+msgstr ""
+
+msgid "What are you doing?"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Login here if you already have an account."
+msgstr ""
+
+msgid "Forgotten password? Request new password here."
+msgstr ""
+
+msgid "New to this website? Register here now!"
+msgstr ""
+
+#, php-format
+msgid "<a href=\"%1$s\">Your profile</a> (<a href=\"%2$s\">Edit</a>)"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Administration"
+msgstr ""

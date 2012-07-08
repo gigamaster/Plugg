@@ -1,0 +1,23 @@
+#plugg ul.groups-groups {list-style:none;}
+#plugg ul.groups-groups li.groups-group {margin-bottom:15px; padding:10px 0;}
+
+#plugg .groups-summary {margin-top:10px;}
+
+#plugg ul.groups-stat {margin:0; margin-top:3px; text-align:center; padding:0;}
+#plugg ul.groups-stat li {list-style:none; font-size:0.85em; margin:0; padding:0;}
+#plugg ul.groups-stat li span.groups-stat-label {color:#888;}
+
+#plugg .groups-images {float:left; width:170px; text-align:center; margin:0;}
+#plugg .groups-image {border:1px solid #ccc; padding:7px;}
+
+#plugg .groups-profile {margin-left:196px;}
+
+#plugg .groups-widgets {padding:0; margin-top:16px; width:100%;}
+#plugg .groups-widgets td {padding:0; vertical-align:top; background-color:transparent;}
+#plugg td.groups-widgets-left {padding-right:10px; width:50%;}
+#plugg td.groups-widgets-right {padding-left:10px; width:50%;}
+#plugg .groups-widgets,
+#plugg .groups-widgets tr,
+#plugg .groups-widgets td {border:none;}
+
+#plugg .groups-pagination {text-align:center; margin-top:10px;}

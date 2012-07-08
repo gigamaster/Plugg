@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 14:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "OpenID authentication"
+msgstr ""
+
+msgid "Path to random number generator"
+msgstr ""
+
+msgid ""
+"Enter the path to a random number generator such as /dev/urandom or leave it "
+"blank to continue with an insecure random number generator."
+msgstr ""
+
+msgid "Path to PEM encoded cert file"
+msgstr ""
+
+#, php-format
+msgid "Enter a relative path from %s/ or an absolute path starting with a %s"
+msgstr ""
+
+msgid ""
+"Enter the path to a PEM encoded certificate file which is required by some "
+"OpenID providers such as mixi.jp. Leave it as-is if you are unsure about "
+"this option."
+msgstr ""
+
+msgid "OpenID"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you have an <a href=\"%s\">OpenID</a> account, you can either click on "
+"one of the OpenID provider logos or enter your OpenID identifier in the form "
+"below to login."
+msgstr ""
+
+#, php-format
+msgid ""
+"If you have an <a href=\"%s\">OpenID</a> account, you can use it to log in "
+"here."
+msgstr ""
+
+msgid "Authentication error; not a valid OpenID."
+msgstr ""
+
+#, php-format
+msgid "Could not redirect to server: %s"
+msgstr ""
+
+msgid "Verification cancelled."
+msgstr ""
+
+#, php-format
+msgid "OpenID authentication failed: %s"
+msgstr ""

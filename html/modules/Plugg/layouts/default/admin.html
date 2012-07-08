@@ -1,0 +1,37 @@
+<?php
+global $xoopsConfig, $xoopsUser, $xoopsUserIsAdmin, $xoopsLogger, $xoopsModule, $xoopsOption, $xoopsDB, $xoopsRequestUri;
+xoops_cp_header();
+printf('
+%1$s
+%2$s
+%3$s
+', $CSS, $JS_HEAD, $HTML_HEAD);
+?>
+<div id="plugg" class="plugg">
+  <div id="plugg-flash">
+<?php if (!empty($FLASH)):?>
+<?php   foreach ($FLASH as $_flash):
+          switch ($_flash['level']):
+            case Sabai_Application_Response::MESSAGE_ERROR:?>
+    <div class="plugg-error">
+<?php         break;
+            case Sabai_Application_Response::MESSAGE_WARNING:?>
+    <div class="plugg-warning">
+<?php         break;
+            case Sabai_Application_Response::MESSAGE_INFO:?>
+    <div class="plugg-info">
+<?php         break;
+            default:?>
+    <div class="plugg-success fadeout">
+<?php     endswitch;?>
+      <?php echo $_flash['msg'];?>
+    </div>
+<?php   endforeach;?>
+<?php endif;?>
+  </div>
+  <div id="plugg-content">
+<?php echo $CONTENT;?>
+  </div>
+</div>
+<?php echo $JS_FOOT;
+xoops_cp_footer();?>

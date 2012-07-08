@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 14:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, php-format
+msgid "%d content(s) imported successfully."
+msgstr ""
+
+msgid "An error occurred while updating data."
+msgstr ""
+
+msgid "Data updated successfully."
+msgstr ""
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+msgid "Configure"
+msgstr ""
+
+msgid "Search engine"
+msgstr ""
+
+msgid ""
+"IMPORTANT! If you switch to another search engine, searchable contents must "
+"be imported manually to the new search engine data source."
+msgstr ""
+
+msgid "Minimum length of search keyword"
+msgstr ""
+
+msgid "Number of search results to display on one page"
+msgstr ""
+
+msgid "There is no searchable content."
+msgstr ""
+
+#, php-format
+msgid "Keywords must be more than %s characters"
+msgstr ""
+
+msgid "Please enter keywords to search for"
+msgstr ""
+
+msgid "Selected content no longer exists"
+msgstr ""
+
+msgid "Find contents that have..."
+msgstr ""
+
+msgid "all of the above words"
+msgstr ""
+
+msgid "one of the above words"
+msgstr ""
+
+msgid "But don't show contents that have any of these unwanted words:"
+msgstr ""
+
+msgid "Keywords:"
+msgstr ""
+
+msgid "Only of the type(s):"
+msgstr ""
+
+msgid "Score"
+msgstr ""
+
+msgid "Order results by:"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Everything"
+msgstr ""
+
+msgid "Order, ascending"
+msgstr ""
+
+msgid "Order, descending"
+msgstr ""
+
+msgid "Plugin"
+msgstr ""
+
+msgid "Search title"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+#, php-format
+msgid ""
+"Select contents to import to the search engine. Contents already registered "
+"on the search engine or contents newer than the last cron import time (%s) "
+"may not be imported manually."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Modified"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import and go to next page"
+msgstr ""
+
+msgid "Search results"
+msgstr ""
+
+#, php-format
+msgid "(score: %d)"
+msgstr ""

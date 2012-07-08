@@ -1,0 +1,4 @@
+<?php
+class Plugg_Footprints_Model_FootprintGateway extends Plugg_Footprints_Model_Base_FootprintGateway
+{
+}

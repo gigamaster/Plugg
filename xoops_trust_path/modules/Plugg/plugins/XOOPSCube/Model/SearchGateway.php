@@ -1,0 +1,4 @@
+<?php
+class Plugg_XOOPSCube_Model_SearchGateway extends Plugg_XOOPSCube_Model_Base_SearchGateway
+{
+}

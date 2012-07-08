@@ -1,0 +1,70 @@
+<?php if (count($PAGE_BREADCRUMBS) > 1): $_PAGE_BREADCRUMB_LAST = array_pop($PAGE_BREADCRUMBS);?>
+  <p class="plugg-breadcrumbs">
+<?php   foreach ($PAGE_BREADCRUMBS as $_PAGE_BREADCRUMB):?>
+<?php     if (is_array($_PAGE_BREADCRUMB['url'])):?>
+    <span><?php echo $this->LinkTo($_PAGE_BREADCRUMB['title'], $_PAGE_BREADCRUMB['url']);?></span>
+<?php     else:?>
+    <span><a href="<?php _h($_PAGE_BREADCRUMB['url']);?>"><?php _h($_PAGE_BREADCRUMB['title']);?></a></span>
+<?php endif;?>
+    <span> &gt; </span>
+<?php   endforeach;?>
+    <span><?php _h($_PAGE_BREADCRUMB_LAST['title']);?></span>
+  </p>
+<?php endif;?>
+<?php if ($PAGE_TITLE):?><h1 id="plugg-page-title"><?php _h($PAGE_TITLE);?></h1><?php endif;?>
+<?php if ($PAGE_MENU):?>
+  <ul class="plugg-menu plugg-page-menu">
+<?php   foreach ($PAGE_MENU as $_PAGE_MENU_SET):?>
+<?php     foreach ($_PAGE_MENU_SET as $_PAGE_MENU):?>
+    <li><?php echo $this->LinkTo($_PAGE_MENU['title'], $_PAGE_MENU['url']);?></li>
+<?php     endforeach;?>
+<?php   endforeach;?>
+  </ul>
+<?php endif;?>
+<?php if (!empty($TAB_CURRENT)):?>
+<?php   foreach (array_keys($TAB_CURRENT) as $_TAB_SET): $_TAB_CURRENT = $TAB_CURRENT[$_TAB_SET];?>
+  <ul class="plugg-tabs">
+<?php     foreach ($TABS[$_TAB_SET] as $_TAB_NAME => $_TAB):?>
+    <li<?php if ($_TAB_NAME == $_TAB_CURRENT):?> class="plugg-tab-selected"<?php endif;?>>
+
+<?php       if (!empty($_TAB['ajax'])):?>
+      <?php echo $this->LinkToRemote($_TAB['title'], 'plugg-content', $_TAB['url'], array(), array(), array('class' => 'plugg-tab-label'));?>
+<?php       else:?>
+      <?php echo $this->LinkTo($_TAB['title'], $_TAB['url'], array('class' => 'plugg-tab-label'));?>
+<?php       endif;?>
+    </li>
+<?php     endforeach;?>
+  </ul>
+<?php   endforeach;?>
+<?php   if (!empty($TAB_PAGE_BREADCRUMBS[$_TAB_SET]) && count($TAB_PAGE_BREADCRUMBS[$_TAB_SET]) > 1): $_TAB_PAGE_BREADCRUMB_LAST = array_pop($TAB_PAGE_BREADCRUMBS[$_TAB_SET]);?>
+  <div class="plugg-breadcrumbs">
+<?php     foreach ($TAB_PAGE_BREADCRUMBS[$_TAB_SET] as $_TAB_PAGE_BREADCRUMB):?>
+<?php       if ($_TAB_PAGE_BREADCRUMB['ajax']):?>
+<?php         echo $this->LinkToRemote($_TAB_PAGE_BREADCRUMB['title'], 'plugg-content', $_TAB_PAGE_BREADCRUMB['url']);?> &gt;
+<?php       else:?>
+<?php         echo $this->LinkTo($_TAB_PAGE_BREADCRUMB['title'], $_TAB_PAGE_BREADCRUMB['url']);?> &gt;
+<?php       endif;?>
+<?php     endforeach;?>
+<?php _h($_TAB_PAGE_BREADCRUMB_LAST['title']);?>
+  </div>
+<?php   endif;?>
+<?php   if (!empty($TAB_PAGE_MENU[$_TAB_SET])):?>
+  <ul class="plugg-menu plugg-tab-menu">
+<?php     foreach ($TAB_PAGE_MENU[$_TAB_SET] as $_TAB_PAGE_MENU_SET):?>
+<?php       foreach ($_TAB_PAGE_MENU_SET as $_TAB_PAGE_MENU):?>
+<?php         if (!empty($_TAB_PAGE_MENU['ajax'])):?>
+    <li><?php echo $this->LinkToRemote($_TAB_PAGE_MENU['title'], 'plugg-content', $_TAB_PAGE_MENU['url']);?></li>
+<?php         else:?>
+    <li><?php echo $this->LinkTo($_TAB_PAGE_MENU['title'], $_TAB_PAGE_MENU['url']);?></li>
+<?php         endif;?>
+<?php       endforeach;?>
+<?php     endforeach;?>
+  </ul>
+<?php   endif;?>
+<?php   if (!empty($TAB_PAGE_TITLE[$_TAB_SET])):?>
+  <h3 class="plugg-tab-title"><?php _h($TAB_PAGE_TITLE[$_TAB_SET]);?></h3>
+<?php     endif;?>
+
+<div class="clear"></div>
+<?php endif;?>
+<?php echo $CONTENT;?>

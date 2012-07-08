@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 13:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Full name"
+msgstr "名前"
+
+#, fuzzy
+msgid "Enter your full name."
+msgstr "名前を入力してください。"
+
+msgid "Website URL"
+msgstr "ホームページ"
+
+msgid "Enter the URL of your website if any"
+msgstr "ホームページのURLを入力してください。"
+
+msgid "Time zone"
+msgstr "タイムゾーン"
+
+msgid "Select the appropriate time zone for your location from the list below."
+msgstr "お住まいの地域のタイムゾーンを選択してください"
+
+msgid "IM accounts"
+msgstr "インスタントメッセンジャー"
+
+msgid ""
+"Enter your IM accounts below if any to let other users contact you easier."
+msgstr ""
+"各種インスタントメッセンジャーのアカウントをお持ちの場合は、各アカウントの"
+"ユーザ名を入力してください。"
+
+msgid "ICQ"
+msgstr ""
+
+msgid "AOL Instant Messenger"
+msgstr "AOLインスタントメッセンジャー"
+
+msgid "Yahoo! Messenger"
+msgstr "Yahoo!メッセンジャー"
+
+msgid "MSN Messenger"
+msgstr "MSNメッセンジャー"
+
+msgid "Location"
+msgstr "居住地"
+
+msgid "Occupation"
+msgstr "職業"
+
+msgid "Interests"
+msgstr "趣味"
+
+#, fuzzy
+msgid "Enter things you are interested in."
+msgstr "興味のある物事を入力してください。"
+
+msgid "Site preferences"
+msgstr "サイト設定"
+
+msgid ""
+"Select some options to make this website more useful to you. Note that not "
+"all contents support these features."
+msgstr ""
+"当サイトをもっと便利に利用するための設定です。なお、下記の設定が当サイトの全"
+"てのコンテンツへと反映されるとは限りません。"
+
+msgid "Select how you would like to receive notification messeges."
+msgstr "通知メッセージの受信方法を選択してください。"
+
+msgid ""
+"Enter your signature that may be attached to the end of your posted content."
+msgstr "自分が投稿したコンテンツの末尾に追加する署名を入力してください。"
+
+msgid "About me"
+msgstr ""
+
+msgid ""
+"Enter any extra information you would like other users to see on your "
+"profile page."
+msgstr "追加のプロフィール情報を入力してください。"
+
+#, fuzzy
+msgid "Invalid user name or password."
+msgstr "ユーザ名またはパスワードが正しくありません"
+
+msgid "The username is already registered."
+msgstr "このユーザ名は既に使用されています。"
+
+msgid "The email address is already registered."
+msgstr "このメールアドレスは既に使用されています。"
+
+#, fuzzy
+msgid "The email address is not registered."
+msgstr "このメールアドレスは登録されていません"
+
+msgid "The email address is already registered by another user"
+msgstr "このメールアドレスは既に使用されています"
+
+msgid "Current image"
+msgstr "現在のアバター画像"
+
+msgid ""
+"Upload an image file to be used as your avatar or select one from the list."
+msgstr "アバター画像をアップロードするかアバター画像一覧より選択してください。"
+
+#, php-format
+msgid "File size must be smaller than %d kilo bytes, %dx%d pixels."
+msgstr ""
+"画像ファイルの大きさは%dキロバイトおよび%d x %d（横 x 縦）ピクセル以下にして"
+"ください。"
+
+msgid "Upload image file"
+msgstr "アップロード"
+
+msgid "Select an avatar image from the list below."
+msgstr "下記一覧よりアバター画像を選択してください。"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Select image"
+msgstr "アバター画像一覧"
+
+#, fuzzy
+msgid "Failed resizing uploaded image file."
+msgstr "アップロード"
+
+msgid "XOOPS URL"
+msgstr ""
+
+msgid "Enter the value of XOOPS_URL defined in the target XOOPSCube system."
+msgstr ""
+
+#, fuzzy
+msgid "Database settings"
+msgstr "ユーザ名"
+
+msgid "Database hostname"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_HOST defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database scheme"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_SCHEME defined in the target XOOPSCube system."
+msgstr ""
+
+#, fuzzy
+msgid "Database name"
+msgstr "ユーザ名"
+
+msgid ""
+"Enter the value of XOOPS_DB_NAME defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database user name"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_USER defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database user password"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_PASS defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database table prefix"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_PREFIX defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Display on profile page"
+msgstr ""
+
+msgid "Display on edit profile page"
+msgstr ""
+
+msgid "Display on registration page"
+msgstr ""
+
+#, fuzzy
+msgid "User name settings"
+msgstr "ユーザ名が入力されていません"
+
+msgid "User name minimum length"
+msgstr ""
+
+msgid "User name maximum length"
+msgstr ""
+
+#, fuzzy
+msgid "User name restriction"
+msgstr "ユーザ名が入力されていません"
+
+msgid "Select the restriction level of allowed characters in a user name"
+msgstr ""
+
+msgid "Strict (Only alphabets, numbers, underscores, and dashes, RECOMMENDED)"
+msgstr ""
+
+msgid "Medium (Strict + some punctuation characters)"
+msgstr ""
+
+msgid "Light (Medium + multi-byte characters)"
+msgstr ""
+
+msgid "Restricted user names"
+msgstr ""
+
+msgid ""
+"Enter user names that are not allowed to be used, each per line. Regular "
+"expressions may be used."
+msgstr ""
+
+#, fuzzy
+msgid "User password settings"
+msgstr "パスワードを２回入力してください"
+
+msgid "Password minimum length"
+msgstr ""
+
+msgid "User email settings"
+msgstr ""
+
+#, fuzzy
+msgid "Restricted email addresses"
+msgstr "不正なメールアドレスです"
+
+msgid ""
+"Enter email addresses that are not allowed to be used, each per line. "
+"Regular expressions may be used."
+msgstr ""
+
+msgid "User field settings"
+msgstr ""
+
+msgid "\"Full name\" user field"
+msgstr ""
+
+msgid "\"URL\" user field"
+msgstr ""
+
+msgid "\"Time zone\" user field"
+msgstr ""
+
+#, fuzzy
+msgid "\"IM accounts\" user field"
+msgstr "インスタントメッセンジャー"
+
+msgid "\"Location\" user field"
+msgstr ""
+
+#, fuzzy
+msgid "\"Occupation\" user field"
+msgstr "職業"
+
+msgid "\"Interests\" user field"
+msgstr ""
+
+#, fuzzy
+msgid "\"Site preferences\" user field"
+msgstr "サイト設定"
+
+#, fuzzy
+msgid "\"Extra info\" user field"
+msgstr "その他"
+
+msgid "User avatar settings"
+msgstr ""
+
+msgid "Allow avatar image upload"
+msgstr ""
+
+msgid "Avatar image max file size"
+msgstr ""
+
+msgid "Enter a numeric value in kilo bytes"
+msgstr ""
+
+msgid "Avatar image max file width"
+msgstr ""
+
+msgid "Enter a numeric value in pixels, 0 for unlimited"
+msgstr ""
+
+msgid "Avatar image max file height"
+msgstr ""
+
+msgid "User name"
+msgstr "ユーザ名"
+
+#, fuzzy, php-format
+msgid "User name must be %d to %d characters long."
+msgstr "ユーザ名は%d〜%d文字以内（半角の場合）で入力してください"
+
+msgid "Please enter your desired user name."
+msgstr "このサイトで使用したいユーザ名を入力してください。"
+
+msgid "Email Address"
+msgstr "メールアドレス"
+
+msgid ""
+"Please enter a valid email address for yourself. We will send you an email "
+"shortly that you must confirm to complete the sign-up process."
+msgstr ""
+"有効なメールアドレスを入力してください。フォーム送信後、入力されたメールアド"
+"レス宛に確認のメールを送ります。"
+
+#, fuzzy
+msgid "Confirm email"
+msgstr "メールアドレス再入力"
+
+msgid "Enter again for confirmation"
+msgstr "確認のためもう一度入力してください"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid ""
+"Please enter a password for your user account. Note that passwords are case-"
+"sensitive."
+msgstr ""
+"パスワードを入力してください。大文字と小文字は異なるものとして認識されます。"
+
+#, php-format
+msgid "Password must be at least %d characters long"
+msgstr "パスワードは%d文字以上で入力してください"
+
+msgid "Confirm Password"
+msgstr "パスワード再入力"
+
+msgid "Invalid character(s) found"
+msgstr "不正な文字が見つかりました"
+
+#, php-format
+msgid "Entered user name may not be used (%s)"
+msgstr ""
+
+msgid "The passwords do not match"
+msgstr "パスワードが一致しません"
+
+msgid "The email addresses do not match"
+msgstr "メールアドレスが一致しません"
+
+#, fuzzy, php-format
+msgid "Entered email address may not be used (%s)"
+msgstr "このメールアドレスは登録されていません"
+
+msgid "Website"
+msgstr "ホームページ"
+
+msgid "Member since"
+msgstr "ユーザ登録日時"
+
+msgid "Last login"
+msgstr "最終ログイン日時"
+
+msgid "Comments/Posts"
+msgstr "投稿数"
+
+msgid "Rank"
+msgstr "ランク"
+
+msgid "Extra information"
+msgstr "追加情報"
+
+#~ msgid "Invalid file type"
+#~ msgstr "不正なファイルです"
+
+#~ msgid "Invalid URL"
+#~ msgstr "不正なURLです"
+
+#~ msgid "Email is required"
+#~ msgstr "メールアドレスが入力されていません"
+
+#~ msgid "Please enter email address two times"
+#~ msgstr "メールアドレスを２回入力してください"
+
+#~ msgid "Password is required"
+#~ msgstr "パスワードが入力されていません"
+
+#~ msgid "Statistics"
+#~ msgstr "統計情報"

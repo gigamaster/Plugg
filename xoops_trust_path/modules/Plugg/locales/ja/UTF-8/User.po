@@ -1,0 +1,1433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-03 21:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, fuzzy
+msgid "Are you sure you want to delete this authentication data?"
+msgstr "選択された認証情報を削除できませんでした"
+
+msgid "Remove auth data"
+msgstr "認証情報の削除"
+
+msgid "Could not remove selected authentication data"
+msgstr "選択された認証情報を削除できませんでした"
+
+#, fuzzy, php-format
+msgid "%d authentication data removed successfully"
+msgstr "%件の認証情報を削除しました。"
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+msgid "An error occurred while updating data."
+msgstr "データ更新に失敗しました"
+
+msgid "Data updated successfully."
+msgstr "データを更新しました"
+
+#, php-format
+msgid "%d auto-login session(s) deleted successfully."
+msgstr "%d件の自動ログインセッションを削除しました。"
+
+#, fuzzy
+msgid "Confirmation mail sent successfully."
+msgstr "マイフレンドをはずしました。"
+
+#, fuzzy
+msgid "An error occurred while sending confirmation mail."
+msgstr "データ更新に失敗しました"
+
+#, fuzzy
+msgid "A new role created successfully."
+msgstr "データを更新しました"
+
+#, fuzzy
+msgid "Are you sure you want to delete this role?"
+msgstr "選択された認証情報を削除できませんでした"
+
+msgid "Role"
+msgstr "ロール"
+
+#, fuzzy
+msgid "Selected role deleted successfully."
+msgstr "%d件の自動ログインセッションを削除しました。"
+
+#, fuzzy
+msgid "User name"
+msgstr "ユーザ"
+
+#, fuzzy
+msgid "The role has been assigned to the user successfully."
+msgstr "%d人のユーザへとロールを割り当てました"
+
+#, fuzzy
+msgid "The user does not exist."
+msgstr "指定されたIDのユーザは存在しません"
+
+#, fuzzy
+msgid "The role is already assigned to the user."
+msgstr "そのロールは既に割り当て済みです"
+
+msgid "You may not remove yourself from the system defined role"
+msgstr "システムロールから自分自身を外すことはできません"
+
+msgid "Remove member"
+msgstr "メンバーの削除"
+
+#, fuzzy
+msgid "Are you sure you want to delete this member?"
+msgstr "選択された認証情報を削除できませんでした"
+
+msgid "Could not remove selected members"
+msgstr "選択されたメンバーを削除できませんでした"
+
+#, php-format
+msgid "%d members(s) removed successfully"
+msgstr "%d人のメンバーを削除しました"
+
+#, fuzzy
+msgid "Registration confirmation email"
+msgstr "確認メールを再送する"
+
+#, fuzzy, php-format
+msgid ""
+"Customize email messages sent to users upon user registration. Available "
+"tags are: %s"
+msgstr "マイフレンドをはずしました。"
+
+#, fuzzy
+msgid "Subject"
+msgstr "拒否"
+
+msgid "User registration confirmation for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Hello {USER_NAME},"
+msgstr ""
+
+msgid ""
+"The email address ({USER_EMAIL}) has been used to register an account at "
+"{SITE_NAME}."
+msgstr ""
+
+msgid ""
+"To become a member of {SITE_NAME}, please confirm your request by clicking "
+"on the link below:"
+msgstr ""
+
+msgid "Account activation email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize email messages sent to users upon account activation. Available "
+"tags are: %s"
+msgstr ""
+
+msgid "Notify user when account is activated."
+msgstr ""
+
+msgid "Account details for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid "Your user account registration at {SITE_NAME} is complete."
+msgstr ""
+
+msgid ""
+"You can now login from the following URL with the password you have provided "
+"upon registration:"
+msgstr ""
+
+#, fuzzy
+msgid "Email modification confirmation email"
+msgstr "確認メールを再送する"
+
+#, fuzzy, php-format
+msgid ""
+"Customize email messages sent to users upon user email modification. "
+"Available tags are: %s"
+msgstr "マイフレンドをはずしました。"
+
+msgid "Email modification confirmation for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid ""
+"The email address ({USER_EMAIL}) has been used for a user account at "
+"{SITE_NAME}."
+msgstr ""
+
+msgid "Please click on the link below to confirm the email address:"
+msgstr ""
+
+#, fuzzy
+msgid "Password request confirmation email"
+msgstr "確認メールを再送する"
+
+#, fuzzy, php-format
+msgid ""
+"Customize email messages sent to users upon new password request. Available "
+"tags are: %s"
+msgstr "マイフレンドをはずしました。"
+
+msgid "New user password request for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid ""
+"A web user from {IP} has just requested a new password for your user account "
+"at {SITE_NAME}."
+msgstr ""
+
+msgid ""
+"Please click on the link below to confirm the request and receive a new "
+"password:"
+msgstr ""
+
+msgid "If you did not ask for this, you can just ignore this email."
+msgstr ""
+
+#, fuzzy
+msgid "New password email"
+msgstr "新しいパスワード"
+
+#, fuzzy, php-format
+msgid ""
+"Customize email messages sent to users containing new password. Available "
+"tags are: %s"
+msgstr "パスワード変更"
+
+msgid "New user password for {USER_NAME}@{SITE_NAME}"
+msgstr ""
+
+msgid "Here are your login details:"
+msgstr ""
+
+msgid "Username: {USER_NAME}"
+msgstr ""
+
+msgid "New Password: {USER_PASSWORD}"
+msgstr ""
+
+msgid "You can change the password after you login from the following URL:"
+msgstr ""
+
+#, fuzzy
+msgid "Configure"
+msgstr "設定可"
+
+msgid "User management plugin"
+msgstr ""
+
+msgid ""
+"IMPORTANT! If you are switching to another plugin, make sure that the new "
+"plugin already has valid user accounts. Otherwise, you may not be able to "
+"login and/or may result in corruputed user system."
+msgstr ""
+
+#, fuzzy
+msgid "Privacy settings"
+msgstr "ユーザ新規登録"
+
+msgid "Allow anyone including guest users to view any user profile"
+msgstr ""
+
+#, fuzzy
+msgid "Registration settings"
+msgstr "ユーザ新規登録"
+
+#, fuzzy
+msgid "Allow new user registration"
+msgstr "新規ユーザ登録@%s"
+
+msgid "Select activation type of newly registered users"
+msgstr ""
+
+#, fuzzy
+msgid "Require activation by user"
+msgstr "%sさんのユーザ登録承認キー"
+
+msgid "Activate automatically"
+msgstr ""
+
+msgid "Activation by administrators"
+msgstr ""
+
+#, fuzzy
+msgid "Autologin settings"
+msgstr "自動ログイン"
+
+msgid "Allow users to keep logged in for specific range of time"
+msgstr ""
+
+msgid "Number of days users can keep logged in"
+msgstr ""
+
+msgid "Limit only one autologin session to be created per user"
+msgstr ""
+
+msgid "Invalid role"
+msgstr "不正なロールです"
+
+msgid "Could not assign role to selected users"
+msgstr "ロールを割り当てることができませんでした"
+
+#, php-format
+msgid "%d users(s) assigned role successfully"
+msgstr "%d人のユーザへとロールを割り当てました"
+
+msgid "Could not remove role from selected users"
+msgstr "選択されたユーザからロールを外せませんでした"
+
+#, php-format
+msgid "%d users(s) removed role successfully"
+msgstr "%d人のユーザからロールを外しました"
+
+msgid "Save"
+msgstr ""
+
+#, fuzzy
+msgid "Custom title"
+msgstr "表示名"
+
+msgid "Private"
+msgstr "プライベート"
+
+msgid "Cache lifetime"
+msgstr ""
+
+msgid "No cache"
+msgstr ""
+
+msgid "1 minute"
+msgstr ""
+
+#, php-format
+msgid "%d minutes"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+#, php-format
+msgid "%d hours"
+msgstr ""
+
+msgid "1 day"
+msgstr ""
+
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#, php-format
+msgid ""
+"Login using the form below to associate your user account with the submitted "
+"authentication or <a href=\"%s\">create a new user account and associate it "
+"with the authenticaton</a>."
+msgstr ""
+"既にユーザ登録がお済みの場合は、下記フォームよりログインしてユーザアカウント"
+"を認証情報と結びつけることができます。ユーザ登録がまだの場合は、<a href=\"%s"
+"\">新規ユーザ登録</a>を行い、作成されたアカウントへと認証情報を結びつけます。"
+
+msgid ""
+"Authentication associated with your user account successfully. You can log "
+"in as the user account using the authentication from now on."
+msgstr ""
+"認証情報をユーザアカウントへと関連付けました。今後はこの認証情報を使用してロ"
+"グインできます。"
+
+msgid ""
+"Failed creating association between your user account and the external "
+"authentication used. Try logging in again using the external authentication."
+msgstr "認証情報をユーザアカウントへと関連付けることができませんでした。"
+
+msgid ""
+"An error occurred. Please click on the email link again to complete the "
+"process."
+msgstr "エラーが発生しました。メール文中のリンクを再度クリックしてください。"
+
+msgid ""
+"You have been registered successfully. Please login using the username/"
+"password pair submitted during registration."
+msgstr ""
+"ユーザ登録が完了しました。ユーザ登録時のユーザ名およびパスワードを使用してロ"
+"グインしてください。"
+
+msgid ""
+"An error occurred. Please fill in the registration form again to register."
+msgstr "エラーが発生しました。ユーザ登録フォームを再送信してください。"
+
+msgid "Your new password has been sent to your registered email address."
+msgstr "新しいパスワードを登録メールアドレス宛に送りました。"
+
+msgid "An error occurred. Please submit the password request form again."
+msgstr "エラーが発生しました。パスワード再発行フォームを再送信してください。"
+
+msgid "Your email address has been updated successfully."
+msgstr "メールアドレスを更新しました。"
+
+msgid ""
+"An error occurred. Please submit the form again to change your email address."
+msgstr "エラーが発生しました。メールアドレス変更フォームを再送信してください。"
+
+#, php-format
+msgid ""
+"Additionally, your external authentication data using %s has been associated "
+"with the created account. You can also use that authentication data to login."
+msgstr ""
+"また、%sを使用した認証情報をユーザアカウントへと関連付けました。この認証情報"
+"を使用してログインすることも可能です。"
+
+#, php-format
+msgid ""
+"An error has occurred while associating your external authentication data "
+"with the created account. Please <a href=\"%s\">login again using %s</a> if "
+"you need to associate the authentication data."
+msgstr ""
+"外部認証情報をユーザアカウントへと関連付けることができませんでした。認証情報"
+"の関連付けを行うには<a href=\"%s\">%sを使用して再度ログイン</a>してください。"
+
+msgid "User data removed successfully"
+msgstr "ユーザアカウントを削除しました。"
+
+#, fuzzy
+msgid "Are you sure you want to delete this account?"
+msgstr "選択された認証情報を削除できませんでした"
+
+msgid "Delete account"
+msgstr "アカウント削除"
+
+#, fuzzy
+msgid "Could not delete selected autologin sessions"
+msgstr "有効な自動ログインのセッションはありません。"
+
+#, fuzzy
+msgid "Selected autologin sessions deleted successfully"
+msgstr "%d件の自動ログインセッションを削除しました。"
+
+msgid ""
+"Please enter a valid email address for yourself. We will send you an email "
+"shortly that you must confirm to complete the process."
+msgstr ""
+"下記フォームに新しいメールアドレスを入力してください。フォーム送信後、入力さ"
+"れたメールアドレス宛にメールアドレス確認のためのメールを送ります。"
+
+msgid "New email address"
+msgstr "新しいメールアドレス"
+
+msgid "Enter your new email address"
+msgstr "新しいメールアドレスを入力してください"
+
+msgid "Confirm email address"
+msgstr "メールアドレス再入力"
+
+msgid "Enter again for confirmation"
+msgstr "確認のためもう一度入力してください"
+
+msgid ""
+"Email modification request has been submitted successfully. Please check "
+"your email for further instruction."
+msgstr ""
+"メールアドレス変更のリクエストを受け付けました。新しいメールアドレス宛へと確"
+"認のメールを送りましたので、メール内容の指示に従ってください。"
+
+msgid "The email addresses do not match"
+msgstr "メールアドレスが一致しません"
+
+msgid "New password"
+msgstr "新しいパスワード"
+
+msgid "Enter your new password"
+msgstr "新しいパスワードを入力してください"
+
+msgid "Confirm password"
+msgstr "パスワード再入力"
+
+msgid "The passwords do not match"
+msgstr "パスワードが一致しません"
+
+#, php-format
+msgid "Remember me on this computer for 1 day"
+msgid_plural "Remember me on this computer for %d days"
+msgstr[0] "次回からは入力を省略して自動でログインする（24時間有効）"
+msgstr[1] "次回からは入力を省略して自動でログインする（%d日間有効）"
+
+msgid ""
+"You have been authenticated successfully. However, we were unable to find a "
+"user account that is associated with the authentication."
+msgstr ""
+"ユーザ認証に成功しましたが、認証情報に関連づけられているユーザアカウントが見"
+"つかりませんでした。"
+
+#, php-format
+msgid ""
+"Create a new account using the registration form below or <a href=\"%s"
+"\">associate the authentication with an existing user account</a>."
+msgstr ""
+"既にユーザ登録がお済みの場合は、<a href=\"%s\">ログイン</a>してユーザアカウン"
+"トを認証情報と結びつけることができます。ユーザ登録がまだの場合は、下記フォー"
+"ムより新規ユーザ登録を行い、作成されたアカウントへと認証情報を結びつけます。"
+
+msgid "Register"
+msgstr "送信"
+
+msgid "You have logged out successfully."
+msgstr "ログアウトしました。"
+
+msgid ""
+"Registration data has been submitted successfully. Your account will be "
+"activated after confirmation by the administrator."
+msgstr ""
+"ユーザ登録情報を送信しました。管理者が登録内容を確認するまでお待ちください。"
+
+msgid ""
+"Registration data has been submitted successfully. Please check your email "
+"for further instruction."
+msgstr ""
+"ユーザ登録情報を送信しました。確認のメールを登録メールアドレス宛に送りました"
+"のでメール内容の指示に従ってユーザ登録を完了してください。"
+
+msgid "Create account"
+msgstr "新規ユーザ登録"
+
+#, php-format
+msgid ""
+"If you already have a user account, you can <a href=\"%s\">associate the "
+"submitted authentication with that account</a>."
+msgstr ""
+"既にユーザ登録がお済みの場合は、<a href=\"%s\">ログインしてユーザアカウントを"
+"認証情報と結びつける</a>ことができます。"
+
+msgid ""
+"If you have forgotten your username or password, you can request to have "
+"your username emailed to you and to reset your password. When you fill in "
+"your registered email address, you will be sent instructions on how to reset "
+"your password."
+msgstr ""
+"パスワードを紛失した場合は、下記フォームを送信してパスワードの再発行を依頼で"
+"きます。フォーム送信後、登録メールアドレス宛に確認のメールを送りますので、"
+"メール内容の指示に従って新規パスワードを再発行してください。"
+
+msgid "Email address"
+msgstr "メールアドレス"
+
+msgid "Enter your registered email address"
+msgstr "登録メールアドレスを入力してください"
+
+msgid "Request password"
+msgstr "パスワード再発行"
+
+msgid ""
+"Password request has been submitted successfully. Please check your email "
+"for further instruction."
+msgstr ""
+"パスワード再発行の依頼を受け付けました。確認のメールを登録メールアドレス宛に"
+"送りましたので、メール内容の指示に従ってください。"
+
+msgid "Name is required"
+msgstr "ロール名が入力されていません"
+
+msgid "Text"
+msgstr ""
+
+msgid "User registration"
+msgstr "ユーザ新規登録"
+
+msgid "Edit email"
+msgstr "メールアドレス変更"
+
+msgid "Permissions"
+msgstr "パーミッション"
+
+msgid "You must enter the name"
+msgstr "ロール名を入力してください"
+
+#, fuzzy
+msgid "Manage account"
+msgstr "新規ユーザ登録"
+
+msgid "Autologins"
+msgstr "自動ログイン"
+
+msgid "Widgets"
+msgstr "ウィジェット"
+
+msgid "Edit password"
+msgstr "パスワード変更"
+
+msgid "Edit image"
+msgstr "画像の変更"
+
+#, fuzzy
+msgid "Update status"
+msgstr "ステータスメッセージの編集"
+
+#, fuzzy
+msgid "Status message"
+msgstr "ステータスメッセージの編集"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "You may not delete your own account while you are a site administrator."
+msgstr ""
+
+#, fuzzy
+msgid "My account"
+msgstr "新規ユーザ登録"
+
+msgid "Profile"
+msgstr "プロフィール"
+
+msgid "User management"
+msgstr ""
+
+msgid "Authentications"
+msgstr "認証情報"
+
+msgid "Fields"
+msgstr "追加項目"
+
+msgid "Queues"
+msgstr "キュー"
+
+msgid "Roles"
+msgstr "ロール"
+
+msgid "Add role"
+msgstr "ロールの追加"
+
+msgid "Edit role"
+msgstr "ロールの編集"
+
+msgid "Delete role"
+msgstr "ロールの削除"
+
+msgid "Add member"
+msgstr "メンバーの追加"
+
+#, fuzzy
+msgid "Settings"
+msgstr "ユーザ新規登録"
+
+#, fuzzy
+msgid "Email settings"
+msgstr "メールアドレス（昇順）"
+
+msgid "Users"
+msgstr "ユーザ"
+
+#, fuzzy
+msgid "General"
+msgstr "ユーザ新規登録"
+
+#, php-format
+msgid ""
+"Please enter your details below to login. Or <a href=\"%s\">create a new "
+"account</a> if you are still not registered."
+msgstr ""
+"ユーザ登録時の情報を入力してログインを行います。ユーザアカウントをお持ちでな"
+"い場合は<a href=\"%s\">新規ユーザ登録</a>を行ってください。"
+
+msgid "Password"
+msgstr "パスワード"
+
+#, php-format
+msgid ""
+"If you have forgotten your password, you can <a href=\"%s\">request a new "
+"password</a> to be sent to you registered email address."
+msgstr ""
+"パスワードを紛失した場合は<a href=\"%s\">パスワードの再発行</a>が行えます。"
+
+msgid "You have logged in successfully."
+msgstr "ログインに成功しました。"
+
+msgid "View other user's profile"
+msgstr "他ユーザのプロフィールの閲覧"
+
+#, fuzzy
+msgid "Edit own user profile"
+msgstr "他ユーザのプロフィールの編集"
+
+msgid "Edit other user's profile"
+msgstr "他ユーザのプロフィールの編集"
+
+msgid "Delete own user profile"
+msgstr "自分のプロフィールの削除"
+
+msgid "Delete other user's profile"
+msgstr "他ユーザのプロフィールの削除"
+
+msgid "Edit own user email"
+msgstr "自分のメールアドレスの編集"
+
+msgid "Edit other user's email"
+msgstr "他ユーザのメールアドレスの編集"
+
+msgid "Edit own user image"
+msgstr "自分のプロフィール画像の編集"
+
+msgid "Edit other user's image"
+msgstr "他ユーザのプロフィール画像の編集"
+
+#, fuzzy
+msgid "Edit own user password"
+msgstr "パスワード変更"
+
+#, fuzzy
+msgid "Edit other user's password"
+msgstr "他ユーザのプロフィールの編集"
+
+#, fuzzy
+msgid "Edit other user's status message"
+msgstr "他ユーザのプロフィール画像の編集"
+
+msgid "View other user's private widget contents"
+msgstr "他ユーザのプライベートウィジェットのコンテンツ閲覧"
+
+msgid "Your Account"
+msgstr "ユーザメニュー"
+
+msgid "Displays user account menu."
+msgstr ""
+
+msgid "Displays user login form."
+msgstr ""
+
+msgid "Extra menu items"
+msgstr ""
+
+msgid "New users"
+msgstr ""
+
+#, fuzzy
+msgid "User logins"
+msgstr "最終ログイン: "
+
+#, fuzzy
+msgid "User updates"
+msgstr "ユーザ"
+
+msgid "Displays recently created user accounts."
+msgstr ""
+
+#, fuzzy
+msgid "Displays recent user logins."
+msgstr "自分のプロフィールの削除"
+
+#, fuzzy
+msgid "Displays recent user profile updates."
+msgstr "自分のプロフィールの削除"
+
+msgid "Number of entries to display"
+msgstr ""
+
+#, fuzzy
+msgid "Default edit type:"
+msgstr "プロフィール編集"
+
+msgid "nobody"
+msgstr "非表示にする"
+
+msgid "everybody"
+msgstr "全てのユーザに表示する"
+
+msgid "registered users"
+msgstr "登録ユーザに表示する"
+
+#, php-format
+msgid "friends with \"%s\" relationship"
+msgstr "「%s」の関係をもつマイフレンドに表示する"
+
+msgid "Visibility"
+msgstr "公開設定"
+
+#, php-format
+msgid "%s - Visibility"
+msgstr "%s - 公開設定"
+
+msgid "Auth title"
+msgstr "表示名"
+
+msgid "Order"
+msgstr "表示順"
+
+msgid "Active"
+msgstr "有効"
+
+msgid "Data"
+msgstr "データ数"
+
+#, fuzzy
+msgid "Title"
+msgstr "表示名"
+
+msgid "Plugin"
+msgstr "プラグイン"
+
+msgid "Data count"
+msgstr "データ数"
+
+msgid "Listing auth data"
+msgstr "登録されているユーザ認証情報"
+
+msgid "Last used"
+msgstr "最終使用日時"
+
+msgid "User ID, ascending"
+msgstr "ユーザID（昇順）"
+
+msgid "User ID, descending"
+msgstr "ユーザID（降順）"
+
+msgid "Date created, descending"
+msgstr "作成日時の新しいものから"
+
+msgid "Date created, ascending"
+msgstr "作成日時の古いものから"
+
+msgid "Auth ID"
+msgstr "認証ID"
+
+msgid ""
+"Expired autologin sessions will be removed automatically if cron job is set "
+"properly. Otherwise, you must delete manually or run cron using the Cron "
+"plugin."
+msgstr ""
+"Cronジョブが正しく設定されている場合、古い自動ログインのセッションは自動的に"
+"削除されます。Cronジョブが設定されていない場合は手動で削除する必要がありま"
+"す。"
+
+msgid "Expires, ascending"
+msgstr "有効期限の古いものから"
+
+msgid "Expires, descending"
+msgstr "有効期限の新しいものから"
+
+msgid "Created, ascending"
+msgstr "作成日時の古いものから"
+
+msgid "Created, descending"
+msgstr "作成日時の新しいものから"
+
+msgid "Updated, ascending"
+msgstr "更新日時の古いものから"
+
+msgid "Updated, descending"
+msgstr "更新日時の新しいものから"
+
+msgid "Expires"
+msgstr "有効期限"
+
+msgid "Field title"
+msgstr "表示名"
+
+msgid "Type"
+msgstr "種類"
+
+msgid "Required"
+msgstr ""
+
+msgid "Registerable"
+msgstr "登録"
+
+msgid "Editable"
+msgstr "編集"
+
+msgid "Viewable"
+msgstr "表示"
+
+msgid "Configurable"
+msgstr "設定可"
+
+msgid "User name, ascending"
+msgstr "ユーザ名（昇順）"
+
+msgid "User name, descending"
+msgstr "ユーザ名（降順）"
+
+msgid "Email, ascending"
+msgstr "メールアドレス（昇順）"
+
+msgid "Email, descending"
+msgstr "メールアドレス（降順）"
+
+msgid "For each selected user: "
+msgstr "選択したユーザに対して:"
+
+msgid "Assign a role"
+msgstr "ロールを割り当てる"
+
+msgid "Remove a role"
+msgstr "ロールを外す"
+
+msgid ""
+"Older queues will be removed automatically if cron job is set properly. "
+"Otherwise, you must delete manually or run cron using the Cron plugin."
+msgstr ""
+"Cronジョブが正しく設定されている場合、古いキュー情報は自動的に削除されます。"
+"Cronジョブが設定されていない場合は手動で削除する必要があります。"
+
+msgid "Created at"
+msgstr "作成日時"
+
+msgid "User/Email"
+msgstr "ユーザ／E-mail"
+
+msgid "Process this queue"
+msgstr "キューを処理する"
+
+msgid "Resend confirmation mail"
+msgstr "確認メールを再送する"
+
+msgid "Role name, ascending"
+msgstr "ロール名（昇順）"
+
+msgid "Role name, descending"
+msgstr "ロール名（降順）"
+
+msgid "Member count"
+msgstr "メンバー数"
+
+msgid "Members"
+msgstr "メンバー"
+
+#, fuzzy
+msgid "User"
+msgstr "ユーザ"
+
+msgid "Custom"
+msgstr "ユーザ定義"
+
+msgid "Hide list"
+msgstr "一覧を隠す"
+
+msgid "Show list"
+msgstr "一覧を表示"
+
+msgid "Listing members"
+msgstr "メンバー一覧"
+
+msgid "Date assigned role, descending"
+msgstr "ロール割り当て日の新しいものから"
+
+msgid "Date assigned role, ascending"
+msgstr "ロール割り当て日の古いものから"
+
+msgid "Date assigned role"
+msgstr "ロール割り当て日"
+
+msgid "This page requires JavaScript enabled in your browser."
+msgstr ""
+
+msgid ""
+"Choose the widgets you want to add by dragging them from the widgets list on "
+"the right to the area on the left and position them in the order you would "
+"like them to appear."
+msgstr ""
+
+#, fuzzy
+msgid "Active widgets"
+msgstr "有効なものから"
+
+msgid "edit"
+msgstr ""
+
+msgid "Available widgets"
+msgstr ""
+
+msgid "User since: "
+msgstr "ユーザ登録: "
+
+msgid "Last login: "
+msgstr "最終ログイン: "
+
+#, fuzzy
+msgid "Last login"
+msgstr "最終ログイン: "
+
+msgid "What are you doing?"
+msgstr ""
+
+msgid "Default"
+msgstr "通常ログイン"
+
+msgid "Login here if you already have an account."
+msgstr "ログイン"
+
+msgid "Forgotten password? Request new password here."
+msgstr "パスワード再発行"
+
+msgid "New to this website? Register here now!"
+msgstr "新規ユーザ登録"
+
+#, fuzzy, php-format
+msgid "<a href=\"%1$s\">Your profile</a> (<a href=\"%2$s\">Edit</a>)"
+msgstr "<a href=\"%1$s\">プロフィール</a>（<a href=\"%2$s\">編集</a>）"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Administration"
+msgstr "管理メニュー"
+
+#~ msgid "User ID cannot be empty"
+#~ msgstr "ユーザIDが入力されていません"
+
+#, fuzzy
+#~ msgid "Click on the link below to activate the user account:"
+#~ msgstr "他ユーザのアカウントを削除する権限がありません。"
+
+#, fuzzy
+#~ msgid "Click the link below to view the user profile:"
+#~ msgstr "他ユーザのアカウントを削除する権限がありません。"
+
+#, fuzzy
+#~ msgid "Notification email sent to user upon completion of user registration"
+#~ msgstr "マイフレンドをはずしました。"
+
+#, fuzzy
+#~ msgid "Confirmation email sent to admin upon new user registration"
+#~ msgstr "マイフレンドをはずしました。"
+
+#, fuzzy
+#~ msgid "Email sent to admin upon completion of new user registration"
+#~ msgstr "マイフレンドをはずしました。"
+
+#~ msgid "Enter passwords two times to change your password."
+#~ msgstr "下記フォームに新しいパスワードを入力してください。"
+
+#~ msgid "Remember me"
+#~ msgstr "自動ログイン"
+
+#~ msgid "Email address is required"
+#~ msgstr "メールアドレスを入力してください"
+
+#~ msgid "Invalid email address"
+#~ msgstr "不正なメールアドレスです"
+
+#, fuzzy
+#~ msgid "Displays the default user profile box"
+#~ msgstr "自分のプロフィールの削除"
+
+#, fuzzy
+#~ msgid "Widget list"
+#~ msgstr "一覧を隠す"
+
+#~ msgid "New password request at %s"
+#~ msgstr "再発行パスワード＠%s"
+
+#~ msgid "New user registration at %s"
+#~ msgstr "新規ユーザ登録@%s"
+
+#~ msgid "User activation key for %s"
+#~ msgstr "%sさんのユーザ登録承認キー"
+
+#~ msgid "Order, ascending"
+#~ msgstr "表示順（昇順）"
+
+#~ msgid "Order, descending"
+#~ msgstr "表示順（降順）"
+
+#~ msgid "Active, ascending"
+#~ msgstr "有効でないものから"
+
+#, fuzzy
+#~ msgid "System defined roles may not be deleted"
+#~ msgstr "システムロールを編集したり削除することはできません"
+
+#, fuzzy
+#~ msgid "tab_Profile"
+#~ msgstr "プロフィール"
+
+#~ msgid "Failed removing active autologin session."
+#~ msgstr "自動ログインのセッションを削除できませんでした。"
+
+#~ msgid "Autologin session removed successfully."
+#~ msgstr "自動ログインのセッションを削除しました。"
+
+#~ msgid "Enter your message here"
+#~ msgstr "メッセージを入力してください"
+
+#, fuzzy
+#~ msgid "Avatar image"
+#~ msgstr "データ数"
+
+#~ msgid "Menu"
+#~ msgstr "メニュー"
+
+#~ msgid "Username is required"
+#~ msgstr "ユーザ名が入力されていません。"
+
+#~ msgid "Password is required"
+#~ msgstr "パスワードが入力されていません"
+
+#, fuzzy
+#~ msgid "widget"
+#~ msgstr "ウィジェット"
+
+#~ msgid "Menu title"
+#~ msgstr "表示名"
+
+#~ msgid "User data updated successfully"
+#~ msgstr "ユーザ情報を更新しました"
+
+#~ msgid "Email is required"
+#~ msgstr "メールアドレスが入力されていません"
+
+#~ msgid "Please enter email address two times"
+#~ msgstr "メールアドレスを２回入力してください"
+
+#~ msgid "Please enter password two times"
+#~ msgstr "パスワードを２回入力してください"
+
+#~ msgid "AutoLogin"
+#~ msgstr "自動ログイン"
+
+#~ msgid "Edit relationship"
+#~ msgstr "マイフレンドとの関係を編集する"
+
+#~ msgid "Remove friend"
+#~ msgstr "マイフレンドをはずす"
+
+#~ msgid "Send message"
+#~ msgstr "メッセージを送る"
+
+#~ msgid "Show all (%d)"
+#~ msgstr "全て表示 (%d)"
+
+#, fuzzy
+#~ msgid "Manage profile"
+#~ msgstr "プロフィール"
+
+#~ msgid "Friend relationship updated successfully."
+#~ msgstr "マイフレンドとの関係を更新しました"
+
+#~ msgid "You must select at least one relationship."
+#~ msgstr "マイフレンドとの関係が選択されていません"
+
+#~ msgid "Edit friend relationship"
+#~ msgstr "マイフレンドとの関係を編集"
+
+#~ msgid "Select personal relationships between you and your friend."
+#~ msgstr "あなたとマイフレンドとの適切な関係を選択してください"
+
+#~ msgid "Friend"
+#~ msgstr "マイフレンド"
+
+#~ msgid "No selection"
+#~ msgstr "該当なし"
+
+#~ msgid "Friendship"
+#~ msgstr "友達としての関係"
+
+#~ msgid "Physical"
+#~ msgstr "物理的な関係"
+
+#~ msgid "Professional"
+#~ msgstr "プロフェッショナルな関係"
+
+#~ msgid "Geographical"
+#~ msgstr "地理的な関係"
+
+#~ msgid "Family"
+#~ msgstr "家族"
+
+#~ msgid "Romantic"
+#~ msgstr "特別な友達としての関係"
+
+#~ msgid "Relationships"
+#~ msgstr "マイフレンドとの関係"
+
+#~ msgid "Friend removed successfully."
+#~ msgstr "マイフレンドをはずしました。"
+
+#~ msgid "Remove a friend"
+#~ msgstr "マイフレンドをはずす"
+
+#~ msgid "Friend request accepted successfully."
+#~ msgstr "マイフレンド申請を承諾しました。"
+
+#~ msgid "Accept a friend request"
+#~ msgstr "マイフレンド申請を承諾する"
+
+#~ msgid "Request sent from"
+#~ msgstr "送信者"
+
+#~ msgid "Message"
+#~ msgstr "メッセージ"
+
+#~ msgid "Accept"
+#~ msgstr "承諾"
+
+#~ msgid "Friend request canceled successfully."
+#~ msgstr "マイフレンド申請をキャンセルしました。"
+
+#~ msgid "Cancel a friend request"
+#~ msgstr "マイフレンド申請のキャンセル"
+
+#~ msgid "Request sent to"
+#~ msgstr "送信先"
+
+#~ msgid "Cancel request"
+#~ msgstr "マイフレンド申請のキャンセル"
+
+#~ msgid "Friend request confirmed successfully."
+#~ msgstr "マイフレンド申請の結果を確認しました。"
+
+#~ msgid "Confirm a friend request"
+#~ msgstr "マイフレンド申請の結果を確認する"
+
+#~ msgid "Accepted"
+#~ msgstr "承諾"
+
+#~ msgid "Rejected"
+#~ msgstr "拒否"
+
+#~ msgid "Result"
+#~ msgstr "結果"
+
+#~ msgid "Friend request rejected successfully."
+#~ msgstr "マイフレンド申請を拒否しました。"
+
+#~ msgid "Reject a friend request"
+#~ msgstr "マイフレンド申請を拒否する"
+
+#~ msgid "Friends"
+#~ msgstr "フレンドリスト"
+
+#, fuzzy
+#~ msgid "Friend requests"
+#~ msgstr "マイフレンド申請"
+
+#~ msgid "You are already friends."
+#~ msgstr "選択されたユーザは既にマイフレンドとして登録されています。"
+
+#~ msgid "There is a pending friend request sent to you from this user."
+#~ msgstr "選択されたユーザからあなた宛に既にマイフレンド申請が届いています。"
+
+#~ msgid "You have recently sent a friend request to this user."
+#~ msgstr "現在このユーザへとマイフレンド申請を送ることはできません。"
+
+#~ msgid "Send request to"
+#~ msgstr "送信先"
+
+#~ msgid "Your friend request to %s submitted successfully."
+#~ msgstr "%sさんへマイフレンド申請を送信しました。"
+
+#~ msgid "Submit request"
+#~ msgstr "マイフレンド申請を送信"
+
+#~ msgid "Submit a friend request"
+#~ msgstr "マイフレンド申請を送信"
+
+#~ msgid "Manage other user's friends data"
+#~ msgstr "他ユーザのフレンド情報の編集"
+
+#, fuzzy
+#~ msgid "Displays a list of the user's friends."
+#~ msgstr "他ユーザのフレンド情報の編集"
+
+#~ msgid "Add as friend"
+#~ msgstr "マイフレンドに追加"
+
+#~ msgid "New friend requests"
+#~ msgstr "マイフレンド申請"
+
+#, fuzzy
+#~ msgid "Friend requests (<strong>%d</strong>)"
+#~ msgstr "マイフレンド申請 (<strong>%d</strong>)"
+
+#~ msgid "contact"
+#~ msgstr "連絡したことがある"
+
+#~ msgid "acquaintance"
+#~ msgstr "知り合い"
+
+#~ msgid "friend"
+#~ msgstr "友人"
+
+#~ msgid "met"
+#~ msgstr "会ったことがある"
+
+#~ msgid "co-worker"
+#~ msgstr "同僚"
+
+#~ msgid "colleague"
+#~ msgstr "仲間"
+
+#~ msgid "co-resident"
+#~ msgstr "同居人"
+
+#~ msgid "neighbor"
+#~ msgstr "ご近所"
+
+#~ msgid "child"
+#~ msgstr "子供"
+
+#~ msgid "parent"
+#~ msgstr "親"
+
+#~ msgid "sibling"
+#~ msgstr "兄弟・親族"
+
+#~ msgid "spouse"
+#~ msgstr "配偶者"
+
+#~ msgid "kin"
+#~ msgstr "親戚"
+
+#~ msgid "muse"
+#~ msgstr "気になる人"
+
+#~ msgid "crush"
+#~ msgstr "片思い"
+
+#~ msgid "date"
+#~ msgstr "デートしたことがある"
+
+#~ msgid "sweetheart"
+#~ msgstr "恋人"
+
+#~ msgid "me"
+#~ msgstr "自分自身"
+
+#~ msgid "Received friend requests"
+#~ msgstr "受信済みのマイフレンド申請"
+
+#~ msgid "Received on"
+#~ msgstr "受信日"
+
+#~ msgid "Request message"
+#~ msgstr "メッセージ"
+
+#~ msgid "Pending friend requests"
+#~ msgstr "承認待ちのマイフレンド申請"
+
+#~ msgid "Sent on"
+#~ msgstr "送信日"
+
+#~ msgid "Sent message"
+#~ msgstr "メッセージ"
+
+#~ msgid "Accepted friend requests"
+#~ msgstr "承諾済みのマイフレンド申請"
+
+#~ msgid "Accepted on"
+#~ msgstr "承諾日"
+
+#~ msgid "Rejected friend requests"
+#~ msgstr "拒否済みのマイフレンド申請"
+
+#~ msgid "Rejected on"
+#~ msgstr "拒否した日"
+
+#, fuzzy
+#~ msgid "Profile page"
+#~ msgstr "プロフィール"
+
+#, fuzzy
+#~ msgid "Registration page"
+#~ msgstr "ユーザ新規登録"
+
+#, fuzzy
+#~ msgid "Profile (<a href=\"%s\">Edit</a>)"
+#~ msgstr "<a href=\"%1$s\">プロフィール</a>（<a href=\"%2$s\">編集</a>）"
+
+#~ msgid "Edit email address"
+#~ msgstr "メールアドレス変更"
+
+#, fuzzy
+#~ msgid "Title is required"
+#~ msgstr "メールアドレスが入力されていません"
+
+#, fuzzy
+#~ msgid "Order is required"
+#~ msgstr "ロール名が入力されていません"
+
+#~ msgid "You are not allowed to delete your own profile."
+#~ msgstr "自分のユーザアカウントを削除する権限がありません。"
+
+#~ msgid "View public profile"
+#~ msgstr "公開プロフィール"
+
+#~ msgid "My friends"
+#~ msgstr "フレンドリスト"
+
+#, fuzzy
+#~ msgid "View other user's private panel contents"
+#~ msgstr "他ユーザのプライベートタブのコンテンツ閲覧"
+
+#~ msgid "\"Add as friend\" button"
+#~ msgstr "「マイフレンドに追加」ボタン"
+
+#~ msgid "\"View public profile\" button"
+#~ msgstr "「公開プロフィール」ボタン"
+
+#~ msgid ""
+#~ "Listing active auto-login sessions with its creation time, updated time, "
+#~ "expiration time, last auto-logged in IP address, and last auto-logged in "
+#~ "user agent."
+#~ msgstr ""
+#~ "自動ログインのセッション作成日時、更新日時、有効期限、最終ログイン元のIPア"
+#~ "ドレス、および最終ログイン元のユーザエージェント（UA）の一覧を表示していま"
+#~ "す。"
+
+#, fuzzy
+#~ msgid "Panel title"
+#~ msgstr "表示名"
+
+#, fuzzy
+#~ msgid "Widget title"
+#~ msgstr "表示名"
+
+#~ msgid "Mini"
+#~ msgstr "ミニ"
+
+#~ msgid "Last IP"
+#~ msgstr "最終ログインIP"
+
+#~ msgid "Last UA"
+#~ msgstr "最終ログインUA"
+
+#, fuzzy
+#~ msgid "Panel: "
+#~ msgstr "表示名"
+
+#~ msgid "Active auto-login sessions"
+#~ msgstr "自動ログインのセッション一覧"
+
+#~ msgid "Tab title"
+#~ msgstr "表示名"
+
+#~ msgid "Friends list"
+#~ msgstr "フレンドリスト"
+
+#~ msgid "%s's friends"
+#~ msgstr "%sさんのフレンドリスト"
+
+#~ msgid "Tabs"
+#~ msgstr "タブ"
+
+#~ msgid "Top"
+#~ msgstr "トップ"
+
+#, fuzzy
+#~ msgid "Delete panel"
+#~ msgstr "ロールの削除"

@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 13:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "XOOPS Code"
+msgstr ""
+
+msgid "Allows editing text using the XOOPS syntax."
+msgstr "XOOPSで使用されている入力方式を有効にします"
+
+msgid "XOOPS Code is <strong>On</strong>"
+msgstr "XOOPS Codeが使用できます"
+
+msgid "Smilies are <strong>On</strong>"
+msgstr "スマイル画像が使用できます"
+
+msgid "Smilies are <strong>Off</strong>"
+msgstr "スマイル画像は使用できません"
+
+msgid "[img] code is <strong>On</strong>"
+msgstr "[img]タグが使用できます"
+
+msgid "[img] code is <strong>Off</strong>"
+msgstr "[img]タグは使用できません"
+
+msgid "HTML tags are <strong>On</strong>"
+msgstr "HTMLタグが使用できます"
+
+msgid "HTML tags are <strong>Off</strong>"
+msgstr "HTMLタグは使用できません"
+
+msgid "Allow smilies"
+msgstr ""
+
+msgid "Select yes to allow smilies to be used in text."
+msgstr ""
+
+msgid "Allow XOOPS Code [img] tag"
+msgstr ""
+
+msgid "Select yes to allow XOOPS Code [img] tag to be used in text."
+msgstr ""
+
+msgid "Allow HTML tags"
+msgstr ""
+
+msgid ""
+"Select yes to allow HTML tags to be used in text. For security reasons it is "
+"strongly recommended that you disable HTML tags if you are unsure."
+msgstr ""

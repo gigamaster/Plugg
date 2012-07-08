@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-03 07:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Purge messages"
+msgstr ""
+
+msgid ""
+"Periodically delete messages without a star and older than following days:"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+msgid "Send message to"
+msgstr ""
+
+msgid "Message sent successfully."
+msgstr ""
+
+msgid "Message could not be updated."
+msgstr ""
+
+msgid "Message updated successfully."
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+#, php-format
+msgid "Message sent to %s successfully."
+msgstr ""
+
+msgid "An error occurred while updating messages."
+msgstr ""
+
+#, php-format
+msgid "%d message(s) updated successfully."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Body html"
+msgstr ""
+
+msgid "Sent messages"
+msgstr ""
+
+msgid "Compose message"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Send message"
+msgstr ""
+
+msgid "Inbox"
+msgstr ""
+
+msgid "Messages"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "New messages"
+msgstr ""
+
+#, php-format
+msgid "Inbox (<strong>%d</strong>)"
+msgstr ""
+
+#, php-format
+msgid ""
+"Messages without a star and older than %d days will be automatically deleted."
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Unread"
+msgstr ""
+
+msgid "Starred"
+msgstr ""
+
+msgid "Unstarred"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Sent to"
+msgstr ""
+
+msgid "Sender"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Sent at"
+msgstr ""
+
+msgid "Received at"
+msgstr ""
+
+msgid "Mark as read"
+msgstr ""
+
+msgid "Mark as unread"
+msgstr ""
+
+msgid "Add star"
+msgstr ""
+
+msgid "Remove star"
+msgstr ""
+
+msgid "No messages"
+msgstr ""
+
+msgid "&laquo; Back to Sent messages"
+msgstr ""
+
+msgid "&laquo; Back to Inbox"
+msgstr ""
+
+msgid "Sent to:"
+msgstr ""
+
+msgid "Sender:"
+msgstr ""
+
+msgid "Sent at:"
+msgstr ""
+
+msgid "Received at:"
+msgstr ""

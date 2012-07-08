@@ -1,0 +1,4 @@
+<?php
+class Plugg_HTMLPurifierFilter_Model_CustomfilterGateway extends Plugg_HTMLPurifierFilter_Model_Base_CustomfilterGateway
+{
+}

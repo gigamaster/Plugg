@@ -1,0 +1,55 @@
+; A nice name for the plugin
+title = "XOOPS Code Filter"
+
+; A short summary of the plugin
+description = "Allows editing text content using XOOPS Code."
+
+; Version number of the plugin which can be recognized by the version_compare() function
+version = "1.0.0"
+
+license = ""
+
+url = "http://pluggcms.com/"
+
+author=""
+
+author_url=""
+
+; Is the plugin uninstallable? Setting false will prevent users from uninstalling the plugin.
+uninstallable = true
+
+; Version numbers of the Plugg core which this plugin supports.
+; You can specify the exact version number or can use x.x to include all versions from x.x.0 to x.x.99.
+; Similarly, use x to support all versions from x.0.0 through x.99.99
+supported_plugg_versions[] = "1.1.0"
+
+; Enter application types this plugin supports, case insensitive.
+; See the Plugg class constants for available values
+supported_plugg_types[] = "XOOPSCUBE_LEGACY"
+supported_plugg_types[] = "XOOPS"
+
+; Enter the names of database systems the plugin supports, case insensitive.
+; Because Plugg already supports mysql/pgsql/sqlite at the core level, you should not normally need this setting.
+;supported_database_systems[] = "mysql"
+;supported_database_systems[] = "pgsql"
+;supported_database_systems[] = "sqlite"
+
+; Enter the minimum version of PHP this plugin supports.
+; Since Plugg requires PHP 5.2.0, this setting should be higher than 5.2.0.
+;required_php_version = "5.2.1";
+
+; Enter the names of PHP extensions that this plugin requires.
+; Each value will be passed to the extension_loaded() function to check if the extension is installed.
+;required_php_extensions[] = "gd"
+
+; Enter the names of PHP libraries that this plugin requires.
+; The installer will check if the libaries exist under the library folder.
+;required_php_libraries[] = "HTTP_Request2"
+
+; Enter tha name of plugins required for this plugin to run.
+; The plugin will not be installed unless the required plugins have already been installed.
+required_plugins[] = "Filters"
+
+; Enter the paths to files and directories that must be writeable by the server.
+; Each path should be a relative path from the plugin root directory, starting with a slash.
+;chmod[] = "/cache"

@@ -1,0 +1,125 @@
+#plugg table {width:100%;}
+#plugg img {margin:0; padding:0;}
+
+#plugg-page-title {clear:left; font-size:26px; font-weight:bold; line-height:26px; padding:0 0 10px 0;}
+#plugg .plugg-breadcrumbs, #plugg-breadcrumbs {padding:0; margin:0 0 5px; clear:both; float:left;}
+#plugg-content {clear:both; position:relative; margin-bottom:20px;}
+
+#plugg a.plugg-asc, #plugg a.plugg-desc {background:transparent no-repeat right center; padding:2px 0; padding-right:16px;}
+#plugg a.plugg-asc {background-image:url('../images/bullet_arrow_up.gif');}
+#plugg a.plugg-desc {background-image:url('../images/bullet_arrow_down.gif');}
+
+#plugg a.plugg-collapsible {
+  background:transparent url(../images/bullet_arrow_down.gif) no-repeat left 50%;
+  padding-left:18px;
+}
+#plugg a.plugg-collapsible.plugg-collapsed {
+  background-image:url(../images/bullet_arrow_right.gif);
+}
+
+#plugg div.plugg-warning,
+#plugg div.plugg-error,
+#plugg div.plugg-success,
+#plugg div.plugg-info {clear:both; margin:5px 0; padding-top:10px; padding-bottom:10px}
+#plugg .plugg-warning {background:#ffc url('../images/exclamation.gif') no-repeat 5px 50%; padding-left:30px !important;}
+#plugg .plugg-error {background:#fdd url('../images/stop.gif') no-repeat 5px 50%; padding-left:30px !important;}
+#plugg .plugg-success {background:#efe url('../images/accept.gif') no-repeat 5px 50%; padding-left:30px !important;}
+#plugg .plugg-info {background:#eef url('../images/information.gif') no-repeat 5px 50%; padding-left:30px !important;}
+
+#plugg ul.plugg-pagination {list-style:none; margin:0; padding:0;}
+#plugg ul.plugg-pagination li {display:inline; margin:0; border-left:1px solid #bbb; padding:0 7px 0 8px;}
+#plugg ul.plugg-pagination li a {padding:0; margin:0;}
+#plugg ul.plugg-pagination li.firstChild {border-left:0; padding-left:0;}
+#plugg ul.plugg-pagination li.lastChild {padding-right:0;}
+
+#plugg ul.plugg-menu {margin:0; padding:0; list-style:none;}
+#plugg ul.plugg-menu li {display:inline; margin:0; border-left:1px solid #ddd; padding:0 4px 0 6px;}
+#plugg ul.plugg-menu li.firstChild {border-left:0; padding-left:0;}
+#plugg ul.plugg-menu li.lastChild {padding-right:0;}
+
+#plugg ul.plugg-tabs a {margin:0; display:block; text-decoration:none;}
+#plugg ul.plugg-tabs {clear:left; float:left; width:100%; padding:0; margin:10px 0 5px; border-bottom:1px solid #ccc;}
+#plugg ul.plugg-tabs li {float:left; list-style-type:none; margin:0; padding:0; margin-left:3px; background:none;}
+#plugg ul.plugg-tabs .plugg-tab-label {display:block; margin:0; padding:6px 10px; font-weight:normal; text-align:center; font-size:100%; margin-bottom:-1px; background:none;}
+#plugg ul.plugg-tabs li.plugg-tab-selected .plugg-tab-label {border:1px solid #ccc; border-bottom:none; border-top:1px solid #999; background-color:#fff;}
+#plugg ul.plugg-page-menu, #plugg ul.plugg-tab-menu {float:right; margin:0; padding:0;}
+#plugg .plugg-tab-title {clear:both; margin-bottom:0;}
+
+#plugg .plugg-form fieldset {border:1px solid #ccc; padding:10px; margin-bottom:10px; padding-bottom:0;}
+#plugg .plugg-form fieldset.plugg-collapsed {border:none; border-top:1px solid #ccc; padding:0 0 0 10px;}
+#plugg .plugg-form fieldset.plugg-nolabel {border:0; padding:0; margin:0;}
+#plugg .plugg-form legend {font-weight:bold; padding:0 3px; display:block;}
+#plugg .plugg-form label {display:inline;}
+#plugg .plugg-form-field-label {font-weight:bold; margin-bottom:1px;}
+#plugg .plugg-form-field-description {font-size:0.85em; font-weight:lighter; margin-bottom:10px;}
+#plugg .plugg-form-field-description-top {margin:5px 0;}
+#plugg span.plugg-form-field-error {display:block; color:#d00; margin-top:2px; background:transparent url('../images/stop.gif') no-repeat left center; padding-left:20px;}
+#plugg div.plugg-form-field-error {margin:0; margin-bottom:2px; padding:5px; background-color:#fee;}
+#plugg .plugg-form input[type="text"],
+#plugg .plugg-form input[type="password"],
+#plugg .plugg-form textarea {width:98%;}
+#plugg .plugg-form-field {margin-bottom:10px;}
+#plugg span.plugg-form-field-required {font-weight:bold; color:#d00; margin-left:2px;}
+#plugg span.plugg-form-field-prefix {margin-right:2px;}
+#plugg span.plugg-form-field-suffix {margin-left:2px;}
+#plugg .plugg-form fieldset.plugg-form-buttons {padding:0; margin-bottom:20px;}
+
+#plugg table caption {text-align:left; font-weight:bold; font-size:1.2em; margin-bottom:5px;}
+#plugg table.plugg-horizontal {width:100%; border-collapse:collapse; border:none; margin-top:5px;}
+#plugg table.plugg-horizontal th {padding:8px; vertical-align:middle;}
+#plugg table.plugg-horizontal td {padding:8px;}
+#plugg table.plugg-horizontal thead th {border-bottom:3px solid #ccc; text-align:left;}
+#plugg table.plugg-horizontal tbody tr {border:none; vertical-align:top;}
+#plugg table.plugg-horizontal tbody td {border-bottom:1px solid #ddd;}
+#plugg table.plugg-horizontal tbody tr.shadow td {background-color:#eee;}
+#plugg table.plugg-horizontal tbody tr.highlight td {background-color:#fffbcc;}
+#plugg table.plugg-horizontal tfoot td {padding-left:4px; font-size:0.9em;}
+
+#plugg table.plugg-vertical {width:100%; border-collapse:collapse; border:none; margin-top:5px;}
+#plugg table.plugg-vertical tr {border:none;}
+#plugg table.plugg-vertical td,
+#plugg table.plugg-vertical th {border:none; border-bottom:1px solid #ddd; padding:8px; plugg-vertical-align:top;}
+#plugg table.plugg-vertical th {width:30%; border-right:1px solid #ddd; text-align:left;}
+#plugg table.plugg-vertical thead th,
+#plugg table.plugg-vertical thead td {padding-left:0; padding-bottom:3px; border-top:0;}
+#plugg table.plugg-vertical tfoot th,
+#plugg table.plugg-vertical tfoot td {border:none; border-top:1px solid #ddd;}
+#plugg table.plugg-vertical tbody tr.firstChild td,
+#plugg table.plugg-vertical tbody tr.firstChild th {border-top:3px solid #ccc; }
+
+#plugg .plugg-widget {margin-bottom:20px; padding:0;}
+#plugg ul.plugg-widget-menu, #plugg .plugg-widget-links ul {text-align:right; padding-right:2px;}
+#plugg .plugg-widget-content {margin:0;}
+#plugg .plugg-widget-title {font-size:1.2em; font-weight:bold; margin:0; margin-bottom:3px; border-bottom:1px solid #ccc; padding-bottom:5px;}
+#plugg .plugg-widget-links {clear:both; padding:0; margin:0;}
+#plugg .plugg-widget-entries {list-style:none; margin:0; padding:0;}
+#plugg .plugg-widget-entry {list-style:none; margin:0; padding:10px 0; border-bottom:1px dotted #ddd; clear:both;}
+#plugg .plugg-widget-entries li.lastChild {border-bottom:0;}
+#plugg .plugg-widget-entry-thumbnail,
+#plugg .plugg-widget-entry-icon {float:left;}
+#plugg .plugg-widget-entry-with-thumbnail .plugg-widget-entry-content {padding-left:57px !important; min-height:50px;}
+#plugg .plugg-widget-entry-with-icon .plugg-widget-entry-content {padding-left:22px !important;}
+#plugg .plugg-widget-entry-title {margin:0; font-size:1.1em; font-weight:bold;}
+#plugg .plugg-widget-entry-meta li {font-size:0.85em; font-weight:lighter;}
+#plugg .plugg-widget-entry-body {padding:0;}
+
+#plugg .plugg-gallery {list-style:none; margin:0; padding:0;}
+#plugg .plugg-gallery li {margin:0 15px 15px 0; text-align:center; padding:0; display:inline; float:left;}
+#plugg .plugg-gallery span {display:block;}
+#plugg .plugg-gallery-image-caption {font-size:90%;}
+
+#plugg .plugg-list, #plugg .plugg-item-meta, #plugg .plugg-item-links, #plugg .plugg-item-attachments-images {list-style:none; margin:0; padding:0;}
+#plugg .plugg-item-attachments-images li {display:inline; float:left; margin:10px 10px 0 0; padding:0;}
+#plugg .plugg-item-attachments-files, #plugg .plugg-item-links, #plugg .plugg-item-extra {clear:both;}
+#plugg .plugg-item-links {text-align:right; padding-right:1px;}
+#plugg .plugg-item {clear:both; padding:0; padding-top:15px; position:relative;}
+#plugg .plugg-list .plugg-item {padding-bottom:15px; border-bottom:1px dotted #ddd;}
+#plugg .plugg-list .plugg-item.lastChild {border:0;}
+#plugg .plugg-item-with-image {padding-left:115px !important; min-height:110px;}
+#plugg .plugg-item-with-thumbnail {padding-left:60px !important; min-height:50px;}
+#plugg .plugg-item-image, #plugg .plugg-item-thumbnail {position:absolute; left:0; top:15px;}
+#plugg .plugg-item-title {margin:0; padding:0; font-weight:bold; font-size:1.1em;}
+#plugg .plugg-item-meta {font-size:0.85em;}
+#plugg .plugg-item-body {margin-top:5px;}
+
+#plugg .clear {clear:both;}

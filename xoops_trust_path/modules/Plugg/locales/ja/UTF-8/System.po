@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 14:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Plugin not installed"
+msgstr "プラグインがインストールされていません。"
+
+msgid "Invalid plugin"
+msgstr "不正なプラグインです。"
+
+msgid "Display name"
+msgstr "表示名"
+
+msgid "Options"
+msgstr "オプション"
+
+msgid "Configure plugin"
+msgstr "プラグインの設定"
+
+#, php-format
+msgid "The selected plugin requires PHP %s or higher"
+msgstr "このプラグインはPHP%s以上が必要です。"
+
+#, php-format
+msgid "The selected plugin requires plugin %s to be installed"
+msgstr ""
+"指定されたプラグインを使用するには、%sプラグインがインストールされている必要"
+"があります。"
+
+#, php-format
+msgid ""
+"The selected plugin requires plugin %s version %s or higher to be installed"
+msgstr "指定されたプラグインを使用するには、%sプラグイン%s以上が必要です。"
+
+msgid "Plugin configured successfully"
+msgstr "プラグインの設定を保存しました。"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "Version"
+msgstr "バージョン"
+
+msgid "Install plugin"
+msgstr "プラグインのインストール"
+
+#, php-format
+msgid ""
+"Plugin installation failure. Please check the plugin %s and try again. "
+"Error: %s"
+msgstr "プラグイン（%s）をインストールできませんでした。エラー: %s"
+
+#, php-format
+msgid ""
+"The permission of %s must be changed to %o in order for the plugin to run "
+"properly."
+msgstr ""
+
+msgid "Plugin installed successfully"
+msgstr "プラグインをインストールしました"
+
+msgid "The selected plugin may not be uninstalled."
+msgstr "指定されたプラグインはアンインストールできません。"
+
+#, fuzzy, php-format
+msgid "The selected plugin is required by %s"
+msgstr "このプラグインをインストールするにはデータベースとして%sが必要です。"
+
+msgid "Uninstall"
+msgstr "アンインストール"
+
+msgid "Plugin is up to date"
+msgstr "プラグインは最新です。"
+
+msgid "Upgrade"
+msgstr "アップグレード"
+
+msgid "Upgrade plugin"
+msgstr "プラグインのアップグレード"
+
+#, fuzzy
+msgid "Plugin upgraded successfully"
+msgstr "プラグインの設定を保存しました。"
+
+msgid "mod_rewrite settings"
+msgstr ""
+
+msgid "Enable mod_rewrite"
+msgstr ""
+
+#, php-format
+msgid ""
+"Select yes to enable mod_rewrite and make URLs SEO friendly. Shown below is "
+"an example of mod_rewrite settings that you can configure in %1$s/."
+"htaccess<br /><br /><code>RewriteEngine on<br />RewriteCond %%"
+"{REQUEST_FILENAME} !-f<br />RewriteCond %%{REQUEST_FILENAME} !-d<br /"
+">RewriteRule ^%3$s/(.+)$ %1$s/%2$s?q=/$1 [E=REQUEST_URI:%1$s/%2$s?q=/$1,L,"
+"QSA]</code>"
+msgstr ""
+
+msgid "mod_rewrite URL format"
+msgstr ""
+
+#, php-format
+msgid ""
+"If mod_rewrite is enabled, URLs will be generated in this format. You can "
+"use %1$s as the requested route (ex. /user/2), %2$s as the query string (ex. "
+"foo=bar), and %3$s as the value of %2$s prefixed with a question mark (ex. ?"
+"foo=bar)."
+msgstr ""
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+#, fuzzy
+msgid "Default plugin"
+msgstr "不正なプラグインです。"
+
+msgid ""
+"The home page displays content from this plugin. If unsure, select the "
+"\"Widgets\" plugin."
+msgstr ""
+
+msgid "Debug settings"
+msgstr ""
+
+msgid ""
+"If debug is enabled, various system messages will be displayed on the "
+"screen. Make sure that no other users can visit the site when this option is "
+"enabled, as some messages contain sensitive information."
+msgstr ""
+
+msgid "Enable debug"
+msgstr ""
+
+msgid "Nicename"
+msgstr "表示名"
+
+msgid "Active"
+msgstr "有効"
+
+msgid "Locked"
+msgstr ""
+
+msgid "Nicename is required"
+msgstr "表示名を入力してください"
+
+msgid "System management"
+msgstr ""
+
+msgid "PHP information"
+msgstr ""
+
+#, fuzzy
+msgid "Install new"
+msgstr "インストール"
+
+#, fuzzy
+msgid "Refresh list"
+msgstr "更新"
+
+msgid "Site settings"
+msgstr ""
+
+msgid "SEO"
+msgstr ""
+
+msgid "Site information"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+#, fuzzy, php-format
+msgid "Plugg requires PHP version %s or higher to run properly."
+msgstr "指定されたプラグインを使用するには、%sプラグイン%s以上が必要です。"
+
+#, fuzzy
+msgid "Enabled"
+msgstr "無効"
+
+msgid ""
+"For security reasons, it is highly recommended that the PHP register_globals "
+"setting be disabled."
+msgstr ""
+
+msgid "Disabled"
+msgstr "無効"
+
+msgid ""
+"For security reasons, it is highly recommended that the PHP display_errors "
+"setting be disabled."
+msgstr ""
+
+msgid ""
+"For security reasons, it is highly recommended that the PHP allow_url_fopen "
+"setting be disabled."
+msgstr ""
+
+msgid "PHP mbstring extension"
+msgstr ""
+
+msgid ""
+"It is recommended that the PHP mbstring extension be enbaled for Plugg to "
+"run properly."
+msgstr ""
+
+msgid "File system"
+msgstr ""
+
+#, fuzzy
+msgid "Configured correctly"
+msgstr "設定"
+
+msgid "Not configured correctly"
+msgstr ""
+
+msgid "The following directories/files need to be writable by the web server:"
+msgstr ""
+
+#, php-format
+msgid "Plugin name %s is reserved by the system"
+msgstr "%sはプラグイン名として使用できません。"
+
+#, php-format
+msgid "Plugin with the name %s is installed already"
+msgstr "プラグイン名が%sのプラグインが既にインストールされています。"
+
+msgid "The selected plugin is not compatible with this application"
+msgstr "指定されたプラグインはこのバージョンのPluggに対応していません"
+
+#, php-format
+msgid ""
+"The selected plugin requires the PHP %s extension to be enabled on your "
+"server"
+msgstr ""
+"指定されたプラグインをインストールするには、%s拡張ライブラリがサーバ上にイン"
+"ストールされている必要があります。"
+
+#, php-format
+msgid ""
+"The selected plugin requires the %s library file(s) to be available under "
+"include_path: %s"
+msgstr ""
+"指定されたプラグインをインストールするには、%sライブラリがinclude_path（%s）"
+"上に設置されている必要があります。"
+
+#, php-format
+msgid "The selected plugin requires a %s database"
+msgstr "このプラグインをインストールするにはデータベースとして%sが必要です。"
+
+msgid ""
+"Additionally, failed deleting plugin data from the database. Please "
+"uninstall the plugin manually."
+msgstr ""
+"また、プラグインのデータをデータベースから削除できませんでした。プラグインを"
+"手動にて削除してください。"
+
+msgid "Failed inserting plugin data into the database. "
+msgstr "プラグインデータの保存に失敗しました。"
+
+#, php-format
+msgid "as %s"
+msgstr ""
+
+#, php-format
+msgid "required by %s"
+msgstr "利用プラグイン: %s"
+
+msgid "Configure"
+msgstr "設定"
+
+#, php-format
+msgid "requires %s"
+msgstr "必須プラグイン: %s"
+
+#~ msgid "Plugin name, ascending"
+#~ msgstr "プラグイン名（昇順）"
+
+#~ msgid "Plugin name, descending"
+#~ msgstr "プラグイン名（降順）"
+
+#, fuzzy
+#~ msgid "Plugin %s is required by %s and must be active"
+#~ msgstr "プラグイン%sはプラグイン%sにより使用されています。"
+
+#~ msgid "The selected plugin requires plugin %s to be installed and active"
+#~ msgstr ""
+#~ "指定されたプラグインを使用するには、%sプラグインがインストールされていて且"
+#~ "つ有効である必要があります。"
+
+#~ msgid "List all"
+#~ msgstr "全て表示"
+
+#~ msgid "List active"
+#~ msgstr "有効なものを表示"
+
+#, fuzzy
+#~ msgid "List inactive"
+#~ msgstr "有効なものを表示"
+
+#~ msgid "There is another plugin installed using the specified plugin name"
+#~ msgstr "入力されたプラグイン名は既に使用されています。"
+
+#~ msgid "There is another plugin library using the specified plugin name"
+#~ msgstr "入力されたプラグイン名は既に使用されています。"
+
+#~ msgid "Clone name"
+#~ msgstr "複製プラグイン名"
+
+#~ msgid ""
+#~ "Only lowercase alphabet and numerical values are allowed, and must start "
+#~ "with an alphabet."
+#~ msgstr ""
+#~ "半角小文字のアルファベットおよび半角数字のみが使用可能です。また、最初の文"
+#~ "字は必ずアルファベットにしてください。"
+
+#~ msgid "Clone plugin"
+#~ msgstr "プラグインの複製"
+
+#~ msgid "Name is required"
+#~ msgstr "プラグイン名を入力してください"
+
+#~ msgid "Invalid plugin library"
+#~ msgstr "不正なプラグインライブラリです"
+
+#~ msgid "The selected plugin may not be cloned"
+#~ msgstr "指定されたプラグインは複製できません"
+
+#~ msgid "Plugin library, ascending"
+#~ msgstr "ライブラリ（昇順）"
+
+#~ msgid "Plugin library, descending"
+#~ msgstr "ライブラリ（降順）"
+
+#~ msgid "Clone"
+#~ msgstr "複製"
+
+#, fuzzy
+#~ msgid "Plugin management"
+#~ msgstr "プラグイン名（昇順）"
+
+#, fuzzy
+#~ msgid "Install new plugin"
+#~ msgstr "プラグインのインストール"
+
+#, fuzzy
+#~ msgid "Installable plugins"
+#~ msgstr "未インストール"
+
+#, fuzzy
+#~ msgid "Add plugin"
+#~ msgstr "不正なプラグインです。"
+
+#~ msgid "Plugin %s is required by %s"
+#~ msgstr "プラグイン%sはプラグイン%sにより使用されています。"
+
+#~ msgid "Uninstall plugin"
+#~ msgstr "プラグインのアンインストール"
+
+#~ msgid "No plugin library specified"
+#~ msgstr "プラグインライブラリが指定されていません"
+
+#, fuzzy
+#~ msgid "Installed plugins"
+#~ msgstr "インストール済み"
+
+#~ msgid "No plugin specified"
+#~ msgstr "プラグインが選択されていません。"
+
+#~ msgid "Error"
+#~ msgstr "エラー"
+
+#~ msgid "Library"
+#~ msgstr "ライブラリ"
+
+#~ msgid ""
+#~ "Only lowercase alphabet and numerical values are allowed starting with an "
+#~ "alphabet."
+#~ msgstr ""
+#~ "半角小文字のアルファベットおよび半角数字のみが使用可能です。また、最初の文"
+#~ "字は必ずアルファベットにしてください。"

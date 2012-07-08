@@ -1,0 +1,4 @@
+<?php
+class Plugg_Widgets_Model_ActivewidgetGateway extends Plugg_Widgets_Model_Base_ActivewidgetGateway
+{
+}

@@ -1,0 +1,4 @@
+<?php
+class Plugg_AdminWidget_Model_WidgetGateway extends Plugg_AdminWidget_Model_Base_WidgetGateway
+{
+}

@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-03 18:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Are you sure you want to delete this group?"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Selected group deleted successfully."
+msgstr ""
+
+msgid "Current avatar"
+msgstr ""
+
+msgid "User name"
+msgstr ""
+
+msgid "Member added to the group successfully."
+msgstr ""
+
+msgid "The user does not exist."
+msgstr ""
+
+msgid "The user is already a member of the group."
+msgstr ""
+
+msgid "Invalid request 1"
+msgstr ""
+
+msgid "Invalid request2"
+msgstr ""
+
+msgid "Invalid request3"
+msgstr ""
+
+msgid "Invalid request4"
+msgstr ""
+
+msgid "Could not approve selected members"
+msgstr ""
+
+msgid "Selected members approved successfully"
+msgstr ""
+
+msgid "Could not delete selected members"
+msgstr ""
+
+msgid "Selected members deleted successfully"
+msgstr ""
+
+msgid "Could not assign admin role to selected members"
+msgstr ""
+
+msgid "Selected members assigned admin role successfully"
+msgstr ""
+
+msgid "Could not revoke admin role from selected members"
+msgstr ""
+
+msgid "Selected members revoked admin role successfully"
+msgstr ""
+
+msgid "Could not send invitation mail to selected members"
+msgstr ""
+
+msgid "Invitation mail sent to selected members"
+msgstr ""
+
+msgid "Membership activation email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize email messages sent to users upon membership activation. Available "
+"tags are: %s"
+msgstr ""
+
+msgid "Notify user when group membership is activated."
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "You are now a member of the group {GROUP_NAME} at {SITE_NAME}"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Hello {USER_NAME},"
+msgstr ""
+
+msgid "You are now a member of the group {GROUP_NAME} at {SITE_NAME}."
+msgstr ""
+
+msgid "Visit the group page at the followint URL:"
+msgstr ""
+
+msgid "Group invitation email"
+msgstr ""
+
+#, php-format
+msgid ""
+"Customize group invitation messages sent to users. Available tags are: %s"
+msgstr ""
+
+msgid "You have been invited to the group {GROUP_NAME} at {SITE_NAME}"
+msgstr ""
+
+msgid "You have been invited to the group {GROUP_NAME} at {SITE_NAME}."
+msgstr ""
+
+msgid "To accept invitation and join the group, click on the link below:"
+msgstr ""
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+msgid "Could not approve selected groups"
+msgstr ""
+
+msgid "Selected groups approved successfully"
+msgstr ""
+
+msgid "Could not delete selected groups"
+msgstr ""
+
+msgid "Selected groups deleted successfully"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Custom title"
+msgstr ""
+
+msgid "Cache lifetime"
+msgstr ""
+
+msgid "No cache"
+msgstr ""
+
+msgid "1 minute"
+msgstr ""
+
+#, php-format
+msgid "%d minutes"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+#, php-format
+msgid "%d hours"
+msgstr ""
+
+msgid "1 day"
+msgstr ""
+
+#, php-format
+msgid "%d days"
+msgstr ""
+
+msgid "An error occurred while updating data."
+msgstr ""
+
+msgid "Data updated successfully."
+msgstr ""
+
+msgid "A new group created successfully."
+msgstr ""
+
+msgid ""
+"Thank you for your new group request. Your group will be created once the "
+"request is approved by the administrator."
+msgstr ""
+
+msgid "Group deleted successfully."
+msgstr ""
+
+msgid "Group name"
+msgstr ""
+
+msgid "Request membership"
+msgstr ""
+
+msgid "Join this group"
+msgstr ""
+
+msgid "You have joined the group successfully."
+msgstr ""
+
+msgid ""
+"Thank you for your new group membership request. You will be granted access "
+"to the group once the request is approved by the group administrator."
+msgstr ""
+
+msgid "You cannot leave this group while you are an administrator."
+msgstr ""
+
+msgid "Are you sure you want to leave this group?"
+msgstr ""
+
+msgid "Yes, leave this group"
+msgstr ""
+
+msgid "You have left the group."
+msgstr ""
+
+msgid "Add member"
+msgstr ""
+
+msgid "Invite user"
+msgstr ""
+
+#, php-format
+msgid "%s invited to the group successfully."
+msgstr ""
+
+msgid "Group data updated successfully."
+msgstr ""
+
+msgid "Nicename"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Name is required"
+msgstr ""
+
+msgid "Nicename is required"
+msgstr ""
+
+msgid "Description is required"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Avatar file"
+msgstr ""
+
+msgid "Invalid file type"
+msgstr ""
+
+msgid "Members"
+msgstr ""
+
+msgid "Leave group"
+msgstr ""
+
+msgid "Join group"
+msgstr ""
+
+msgid "Manage group"
+msgstr ""
+
+msgid "Members list"
+msgstr ""
+
+msgid "Active members"
+msgstr ""
+
+msgid "Invited members"
+msgstr ""
+
+msgid "Pending members"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "Create group"
+msgstr ""
+
+msgid "You are already a member of this group."
+msgstr ""
+
+msgid ""
+"You have already requested a membership for this group but it is not yet "
+"approved by the group administrator."
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Group management"
+msgstr ""
+
+msgid "Edit group"
+msgstr ""
+
+msgid "Delete group"
+msgstr ""
+
+msgid "Add group"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Create a new group"
+msgstr ""
+
+msgid "Edit any group"
+msgstr ""
+
+msgid "Delete any group"
+msgstr ""
+
+msgid "Approve newly created groups"
+msgstr ""
+
+msgid "Displays available community groups."
+msgstr ""
+
+msgid "Number of groups to display"
+msgstr ""
+
+msgid "Default display order"
+msgstr ""
+
+msgid "Popularity"
+msgstr ""
+
+msgid "Newest"
+msgstr ""
+
+msgid "Popular"
+msgstr ""
+
+#, php-format
+msgid "1 member"
+msgid_plural "%d members"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "New groups"
+msgstr ""
+
+msgid "Displays recently created groups."
+msgstr ""
+
+msgid "Default display type:"
+msgstr ""
+
+msgid "Display all groups"
+msgstr ""
+
+msgid "Approved groups"
+msgstr ""
+
+msgid "Pending groups"
+msgstr ""
+
+msgid "All groups"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Displays a list of groups to which the user belongs."
+msgstr ""
+
+msgid "Member since"
+msgstr ""
+
+msgid "Displays a list of group members."
+msgstr ""
+
+msgid "Number of members to display"
+msgstr ""
+
+msgid "Default display type"
+msgstr ""
+
+msgid "All members"
+msgstr ""
+
+msgid "Group administrators"
+msgstr ""
+
+msgid "Non-admin members"
+msgstr ""
+
+msgid "Admins"
+msgstr ""
+
+msgid "Non admins"
+msgstr ""
+
+msgid "Approval required to join"
+msgstr ""
+
+msgid "Invitation required to join"
+msgstr ""
+
+msgid "Anyone can join without approval"
+msgstr ""
+
+msgid "Founder"
+msgstr ""
+
+msgid "Pending membership requests"
+msgstr ""
+
+msgid "Membership invitations"
+msgstr ""
+
+msgid "User ID, ascending"
+msgstr ""
+
+msgid "User ID, descending"
+msgstr ""
+
+msgid "Date created, ascending"
+msgstr ""
+
+msgid "Date created, descending"
+msgstr ""
+
+msgid "Date created"
+msgstr ""
+
+msgid "Assign admin role"
+msgstr ""
+
+msgid "Revoke admin role"
+msgstr ""
+
+msgid "Resend"
+msgstr ""
+
+msgid "Reject"
+msgstr ""
+
+msgid "Group name, ascending"
+msgstr ""
+
+msgid "Group name, descending"
+msgstr ""
+
+msgid "Number of active members, ascending"
+msgstr ""
+
+msgid "Number of active members, descending"
+msgstr ""
+
+msgid "This page requires JavaScript enabled in your browser."
+msgstr ""
+
+msgid ""
+"Choose the widgets you want to add by dragging them from the widgets list on "
+"the right to the area on the left and position them in the order you would "
+"like them to appear."
+msgstr ""
+
+msgid "Active widgets"
+msgstr ""
+
+msgid "edit"
+msgstr ""
+
+msgid "Available widgets"
+msgstr ""
+
+msgid "Created: "
+msgstr ""
+
+msgid "Founder: "
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Group type"
+msgstr ""
+
+msgid "Resend invitation"
+msgstr ""
+
+#, php-format
+msgid "%d member"
+msgid_plural "%d members"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Member since: "
+msgstr ""

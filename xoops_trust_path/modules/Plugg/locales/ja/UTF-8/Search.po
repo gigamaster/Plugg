@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 14:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, php-format
+msgid "%d content(s) imported successfully."
+msgstr "%d件のコンテンツをインポートしました。"
+
+msgid "An error occurred while updating data."
+msgstr "データ更新に失敗しました。"
+
+msgid "Data updated successfully."
+msgstr "データを更新しました。"
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+msgid "Configure"
+msgstr ""
+
+#, fuzzy
+msgid "Search engine"
+msgstr "検索名"
+
+msgid ""
+"IMPORTANT! If you switch to another search engine, searchable contents must "
+"be imported manually to the new search engine data source."
+msgstr ""
+
+msgid "Minimum length of search keyword"
+msgstr ""
+
+msgid "Number of search results to display on one page"
+msgstr ""
+
+msgid "There is no searchable content."
+msgstr "検索可能なコンテンツが存在しません。"
+
+#, php-format
+msgid "Keywords must be more than %s characters"
+msgstr "キーワードは%s文字以上で入力してください"
+
+msgid "Please enter keywords to search for"
+msgstr "検索するキーワードを入力してください"
+
+msgid "Selected content no longer exists"
+msgstr "選択されたコンテンツは存在しないか既に削除されています"
+
+msgid "Find contents that have..."
+msgstr "下記のキーワードを含む:"
+
+msgid "all of the above words"
+msgstr "すべてを含む"
+
+msgid "one of the above words"
+msgstr "いずれかを含む"
+
+msgid "But don't show contents that have any of these unwanted words:"
+msgstr "下記のキーワードを含めない:"
+
+msgid "Keywords:"
+msgstr "キーワード:"
+
+msgid "Only of the type(s):"
+msgstr "検索するコンテンツ"
+
+msgid "Score"
+msgstr "スコアの高いものから"
+
+msgid "Order results by:"
+msgstr "検索結果の並び順:"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "Everything"
+msgstr "全てのコンテンツ"
+
+msgid "Order, ascending"
+msgstr "表示順（昇順）"
+
+msgid "Order, descending"
+msgstr "表示順（降順）"
+
+msgid "Plugin"
+msgstr "プラグイン"
+
+msgid "Search title"
+msgstr "検索名"
+
+msgid "Order"
+msgstr "表示順"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "View"
+msgstr "表示"
+
+#, fuzzy, php-format
+msgid ""
+"Select contents to import to the search engine. Contents already registered "
+"on the search engine or contents newer than the last cron import time (%s) "
+"may not be imported manually."
+msgstr ""
+"検索エンジンへとインポートするコンテンツを選択してください。既にインポート済"
+"みのコンテンツをインポートした場合、そのコンテンツは上書きされます。"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Body"
+msgstr "本文"
+
+msgid "Author"
+msgstr "投稿者"
+
+msgid "Modified"
+msgstr "更新日時"
+
+msgid "Import"
+msgstr "インポート"
+
+msgid "Import and go to next page"
+msgstr "インポートして次のページを表示"
+
+msgid "Search results"
+msgstr "検索結果"
+
+#, php-format
+msgid "(score: %d)"
+msgstr "(スコア: %d)"
+
+#, fuzzy
+#~ msgid "General settings"
+#~ msgstr "検索結果"
+
+#~ msgid "Active, ascending"
+#~ msgstr "有効でないものから"
+
+#~ msgid "Active, descending"
+#~ msgstr "有効なものから"
+
+#~ msgid "Searchable contents"
+#~ msgstr "検索可能なコンテンツ"

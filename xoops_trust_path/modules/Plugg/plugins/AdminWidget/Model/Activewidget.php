@@ -1,0 +1,7 @@
+<?php
+class Plugg_AdminWidget_Model_Activewidget extends Plugg_AdminWidget_Model_Base_Activewidget{
+}
+
+class Plugg_AdminWidget_Model_ActivewidgetRepository extends Plugg_AdminWidget_Model_Base_ActivewidgetRepository
+{
+}

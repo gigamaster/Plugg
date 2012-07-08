@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-30 20:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Save"
+msgstr ""
+
+msgid "Cache lifetime"
+msgstr ""
+
+msgid "No cache"
+msgstr ""
+
+msgid "1 minute"
+msgstr ""
+
+#, php-format
+msgid "%d minutes"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+#, php-format
+msgid "%d hours"
+msgstr ""
+
+msgid "1 day"
+msgstr ""
+
+#, php-format
+msgid "%d days"
+msgstr ""
+
+msgid "Custom title"
+msgstr ""
+
+msgid "An error occurred while updating data."
+msgstr ""
+
+msgid "Data updated successfully."
+msgstr ""
+
+msgid "widget"
+msgstr ""
+
+msgid "layout"
+msgstr ""
+
+msgid "This page requires JavaScript enabled in your browser."
+msgstr ""
+
+msgid ""
+"Choose the features you want to add to widget top page by dragging them from "
+"the Widget list on the right to the area on the left and position them in "
+"the order you would like them to appear."
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Widget list"
+msgstr ""
+
+#, php-format
+msgid "You can add widgets to this page from <a href=\"%s\">here</a>."
+msgstr ""

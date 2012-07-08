@@ -1,0 +1,4 @@
+<?php
+class Plugg_Search_Model_Searchable2engineGateway extends Plugg_Search_Model_Base_Searchable2engineGateway
+{
+}

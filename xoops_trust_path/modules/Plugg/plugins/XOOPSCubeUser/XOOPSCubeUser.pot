@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 13:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Full name"
+msgstr ""
+
+msgid "Enter your full name."
+msgstr ""
+
+msgid "Website URL"
+msgstr ""
+
+msgid "Enter the URL of your website if any"
+msgstr ""
+
+msgid "Time zone"
+msgstr ""
+
+msgid "Select the appropriate time zone for your location from the list below."
+msgstr ""
+
+msgid "IM accounts"
+msgstr ""
+
+msgid ""
+"Enter your IM accounts below if any to let other users contact you easier."
+msgstr ""
+
+msgid "ICQ"
+msgstr ""
+
+msgid "AOL Instant Messenger"
+msgstr ""
+
+msgid "Yahoo! Messenger"
+msgstr ""
+
+msgid "MSN Messenger"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Occupation"
+msgstr ""
+
+msgid "Interests"
+msgstr ""
+
+msgid "Enter things you are interested in."
+msgstr ""
+
+msgid "Site preferences"
+msgstr ""
+
+msgid ""
+"Select some options to make this website more useful to you. Note that not "
+"all contents support these features."
+msgstr ""
+
+msgid "Select how you would like to receive notification messeges."
+msgstr ""
+
+msgid ""
+"Enter your signature that may be attached to the end of your posted content."
+msgstr ""
+
+msgid "About me"
+msgstr ""
+
+msgid ""
+"Enter any extra information you would like other users to see on your "
+"profile page."
+msgstr ""
+
+msgid "Invalid user name or password."
+msgstr ""
+
+msgid "The username is already registered."
+msgstr ""
+
+msgid "The email address is already registered."
+msgstr ""
+
+msgid "The email address is not registered."
+msgstr ""
+
+msgid "The email address is already registered by another user"
+msgstr ""
+
+msgid "Current image"
+msgstr ""
+
+msgid ""
+"Upload an image file to be used as your avatar or select one from the list."
+msgstr ""
+
+#, php-format
+msgid "File size must be smaller than %d kilo bytes, %dx%d pixels."
+msgstr ""
+
+msgid "Upload image file"
+msgstr ""
+
+msgid "Select an avatar image from the list below."
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Select image"
+msgstr ""
+
+msgid "Failed resizing uploaded image file."
+msgstr ""
+
+msgid "XOOPS URL"
+msgstr ""
+
+msgid "Enter the value of XOOPS_URL defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database settings"
+msgstr ""
+
+msgid "Database hostname"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_HOST defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database scheme"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_SCHEME defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database name"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_NAME defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database user name"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_USER defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database user password"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_PASS defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Database table prefix"
+msgstr ""
+
+msgid ""
+"Enter the value of XOOPS_DB_PREFIX defined in the target XOOPSCube system."
+msgstr ""
+
+msgid "Display on profile page"
+msgstr ""
+
+msgid "Display on edit profile page"
+msgstr ""
+
+msgid "Display on registration page"
+msgstr ""
+
+msgid "User name settings"
+msgstr ""
+
+msgid "User name minimum length"
+msgstr ""
+
+msgid "User name maximum length"
+msgstr ""
+
+msgid "User name restriction"
+msgstr ""
+
+msgid "Select the restriction level of allowed characters in a user name"
+msgstr ""
+
+msgid "Strict (Only alphabets, numbers, underscores, and dashes, RECOMMENDED)"
+msgstr ""
+
+msgid "Medium (Strict + some punctuation characters)"
+msgstr ""
+
+msgid "Light (Medium + multi-byte characters)"
+msgstr ""
+
+msgid "Restricted user names"
+msgstr ""
+
+msgid ""
+"Enter user names that are not allowed to be used, each per line. Regular "
+"expressions may be used."
+msgstr ""
+
+msgid "User password settings"
+msgstr ""
+
+msgid "Password minimum length"
+msgstr ""
+
+msgid "User email settings"
+msgstr ""
+
+msgid "Restricted email addresses"
+msgstr ""
+
+msgid ""
+"Enter email addresses that are not allowed to be used, each per line. "
+"Regular expressions may be used."
+msgstr ""
+
+msgid "User field settings"
+msgstr ""
+
+msgid "\"Full name\" user field"
+msgstr ""
+
+msgid "\"URL\" user field"
+msgstr ""
+
+msgid "\"Time zone\" user field"
+msgstr ""
+
+msgid "\"IM accounts\" user field"
+msgstr ""
+
+msgid "\"Location\" user field"
+msgstr ""
+
+msgid "\"Occupation\" user field"
+msgstr ""
+
+msgid "\"Interests\" user field"
+msgstr ""
+
+msgid "\"Site preferences\" user field"
+msgstr ""
+
+msgid "\"Extra info\" user field"
+msgstr ""
+
+msgid "User avatar settings"
+msgstr ""
+
+msgid "Allow avatar image upload"
+msgstr ""
+
+msgid "Avatar image max file size"
+msgstr ""
+
+msgid "Enter a numeric value in kilo bytes"
+msgstr ""
+
+msgid "Avatar image max file width"
+msgstr ""
+
+msgid "Enter a numeric value in pixels, 0 for unlimited"
+msgstr ""
+
+msgid "Avatar image max file height"
+msgstr ""
+
+msgid "User name"
+msgstr ""
+
+#, php-format
+msgid "User name must be %d to %d characters long."
+msgstr ""
+
+msgid "Please enter your desired user name."
+msgstr ""
+
+msgid "Email Address"
+msgstr ""
+
+msgid ""
+"Please enter a valid email address for yourself. We will send you an email "
+"shortly that you must confirm to complete the sign-up process."
+msgstr ""
+
+msgid "Confirm email"
+msgstr ""
+
+msgid "Enter again for confirmation"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid ""
+"Please enter a password for your user account. Note that passwords are case-"
+"sensitive."
+msgstr ""
+
+#, php-format
+msgid "Password must be at least %d characters long"
+msgstr ""
+
+msgid "Confirm Password"
+msgstr ""
+
+msgid "Invalid character(s) found"
+msgstr ""
+
+#, php-format
+msgid "Entered user name may not be used (%s)"
+msgstr ""
+
+msgid "The passwords do not match"
+msgstr ""
+
+msgid "The email addresses do not match"
+msgstr ""
+
+#, php-format
+msgid "Entered email address may not be used (%s)"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Member since"
+msgstr ""
+
+msgid "Last login"
+msgstr ""
+
+msgid "Comments/Posts"
+msgstr ""
+
+msgid "Rank"
+msgstr ""
+
+msgid "Extra information"
+msgstr ""

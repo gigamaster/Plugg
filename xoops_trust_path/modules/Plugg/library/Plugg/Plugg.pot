@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-15 01:47+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Access denied"
+msgstr ""
+
+msgid "You must <a href=\"%s\">login</a> to perform this operation"
+msgstr ""
+
+msgid " "
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Sort by "
+msgstr ""
+
+msgid "Poster"
+msgstr ""
+
+msgid "Posted date, descending"
+msgstr ""
+
+msgid "Posted date, ascending"
+msgstr ""
+
+msgid "View count"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Created date, ascending"
+msgstr ""
+
+msgid "Created date, descending"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Invalid request"
+msgstr ""
+
+msgid "Permission denied"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Invalid request method"
+msgstr ""
+
+msgid "An error occurred"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Newest first"
+msgstr ""
+
+msgid "Oldest first"
+msgstr ""
+
+msgid "%s(%d)"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Ip"
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "F d, Y"
+msgstr ""
+
+msgid "Auto-linking"
+msgstr ""
+
+msgid ""
+"Auto-linking is enabled. URLs(http, ftp, and https) will be converted to "
+"HTML links."
+msgstr ""
+
+msgid "Auto-paragraphing"
+msgstr ""
+
+msgid ""
+"Auto-paragraphing is enabled. Double newlines will be converted to "
+"paragraphs; for single newlines, use the pre or br tags."
+msgstr ""
+
+msgid "Allowed HTML tags"
+msgstr ""
+
+msgid "%s is required"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "%d time"
+msgstr ""
+
+msgid "%d times"
+msgstr ""
+
+msgid "Showing %1$d - %2$d of %3$d"
+msgstr ""
+
+msgid "GO"
+msgstr ""
+
+msgid "Posted %2$s by %1$s"
+msgstr ""
+
+msgid "Posted %s"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "[-]"
+msgstr ""
+
+msgid "[+]"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Sort by: "
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Posted"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "IP"
+msgstr ""
+
+msgid "more..."
+msgstr ""
+
+msgid "Show all"
+msgstr ""
+
+msgid "Submit date"
+msgstr ""
+
+msgid "Post date"
+msgstr ""

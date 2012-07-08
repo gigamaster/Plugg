@@ -1,0 +1,7 @@
+<?php
+class Plugg_Form_Model_Formentry extends Plugg_Form_Model_Base_Formentry{
+}
+
+class Plugg_Form_Model_FormentryRepository extends Plugg_Form_Model_Base_FormentryRepository
+{
+}

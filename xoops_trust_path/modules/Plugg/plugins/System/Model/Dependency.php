@@ -1,0 +1,7 @@
+<?php
+class Plugg_System_Model_Dependency extends Plugg_System_Model_Base_Dependency{
+}
+
+class Plugg_System_Model_DependencyRepository extends Plugg_System_Model_Base_DependencyRepository
+{
+}

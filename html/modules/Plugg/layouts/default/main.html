@@ -1,0 +1,34 @@
+<?php
+global $xoopsConfig, $xoopsUser, $xoopsUserIsAdmin, $xoopsLogger, $xoopsModule, $xoopsModuleConfig, $xoopsOption, $xoopsDB, $xoopsRequestUri, $xoopsTpl;
+include XOOPS_ROOT_PATH . '/header.php';
+$xoopsTpl->assign('xoops_module_header', implode(PHP_EOL, array($xoopsTpl->get_template_vars('xoops_module_header'), $CSS, $JS_HEAD, $HTML_HEAD)));
+$xoopsTpl->assign('xoops_pagetitle', empty($HTML_HEAD_TITLE) ? h($xoopsModule->getVar('name')) : h($xoopsModule->getVar('name') . ' - ' . $HTML_HEAD_TITLE));
+?>
+<div id="plugg" class="plugg">
+  <div id="plugg-flash">
+<?php if (!empty($FLASH)):?>
+<?php   foreach ($FLASH as $_flash):
+          switch ($_flash['level']):
+            case Sabai_Application_Response::MESSAGE_ERROR:?>
+    <div class="plugg-error">
+<?php       break;
+            case Sabai_Application_Response::MESSAGE_WARNING:?>
+    <div class="plugg-warning">
+<?php       break;
+            case Sabai_Application_Response::MESSAGE_INFO:?>
+    <div class="plugg-info">
+<?php       break;
+            default:?>
+    <div class="plugg-success fadeout">
+<?php     endswitch;?>
+      <?php echo $_flash['msg'];?>
+    </div>
+<?php   endforeach;?>
+<?php endif;?>
+  </div>
+  <div id="plugg-content">
+<?php print $CONTENT;?>
+  </div>
+</div>
+<?php echo $JS_FOOT;?>
+<?php include XOOPS_ROOT_PATH . '/footer.php';?>

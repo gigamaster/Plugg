@@ -1,0 +1,678 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-02 18:48+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Invalid site URL."
+msgstr "URLが正しくありません。"
+
+msgid ""
+"Failed fetching feed data. Make sure that the feed URL is dicoverable or "
+"manually enter the feed URL."
+msgstr ""
+"フィード情報を取得できませんでした。フィードのURLが自動検出可能でない場合は、"
+"フィードのURLを入力して下さい。"
+
+msgid "Failed fetching feed data from the supplied URL."
+msgstr "指定されたURLからフィード情報を取得できませんでした。"
+
+msgid "Could not approve selected feeds"
+msgstr "選択されたフィードを承認できませんでした。"
+
+msgid "Selected feeds approved successfully"
+msgstr "選択されたフィードを承認しました。"
+
+msgid "Could not delete selected feeds"
+msgstr "選択されたフィードを削除できませんでした。"
+
+msgid "Selected feeds deleted successfully"
+msgstr "選択されたフィードを削除しました。"
+
+msgid "Could not update items for selected feeds"
+msgstr "選択されたフィードのコンテンツを取得できませんでした。"
+
+#, php-format
+msgid "%d out of %d feed(s) updated successfully"
+msgstr "選択されたフィード（%2$d中%1$d件）のコンテンツを更新しました。"
+
+msgid "Could not remove feed items for selected feeds"
+msgstr "選択されたフィードのコンテンツを削除できませんでした。"
+
+msgid "Selected feeds have been emptied successfully"
+msgstr "選択したフィードを空にしました。"
+
+msgid "Send feed approved notification email"
+msgstr ""
+
+msgid ""
+"Select yes to send notification email to the feed owner user upon feed "
+"approval."
+msgstr ""
+
+msgid "Feed approved notification email subject"
+msgstr ""
+
+msgid ""
+"Enter subject of notification email sent to feed owner user when a feed "
+"submitted by the user is approved by administrator."
+msgstr ""
+
+msgid "{SITE_NAME}: Notification of the approval of your site feed"
+msgstr ""
+
+msgid "Feed approved notification email"
+msgstr ""
+
+msgid ""
+"Enter content of notification email sent to feed owner user when a feed "
+"submitted by the user is approved by administrator."
+msgstr ""
+
+msgid "Hello {USER_NAME},"
+msgstr ""
+
+msgid ""
+"The following feed of your website has been approved and now registered at "
+"{SITE_NAME}:"
+msgstr ""
+
+msgid "Your feed contents will soon be listed at the following locations:"
+msgstr ""
+
+msgid "You can also send update pings to the following URL to notify updates:"
+msgstr ""
+
+msgid "If you need to modify your feed data, go to the following link:"
+msgstr ""
+
+msgid "Send feed added notification email"
+msgstr ""
+
+msgid ""
+"Select yes to send notification email to the feed owner user upon addition "
+"of feed by administrator."
+msgstr ""
+
+msgid "Feed added notification email subject"
+msgstr ""
+
+msgid ""
+"Enter subject of notification email sent to feed owner user upon addition of "
+"feed by administrator."
+msgstr ""
+
+msgid "{SITE_NAME}: Notification of the registration of your site feed"
+msgstr ""
+
+msgid "Feed added notification email"
+msgstr ""
+
+msgid ""
+"Enter content of notification email sent to feed owner user upon addition of "
+"feed by administrator."
+msgstr ""
+
+msgid ""
+"The following feed of your website has been registered at {SITE_NAME} by the "
+"site administrator:"
+msgstr ""
+
+msgid "The configuration options have been saved."
+msgstr ""
+
+msgid "Allow image tags in feed items"
+msgstr "フィード各記事のコンテンツ内にあるimgタグを有効にする"
+
+msgid "Note that this setting may be overridden by each feed."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Select whether or not to enable image tags in feed items. For security "
+"reasons, it is highly recommended that you select no if accepting feeds from "
+"untrusted users."
+msgstr ""
+"フィード各記事のコンテンツ内に記述されたimgタグを有効にするかどうかを設定しま"
+"す。信頼できないユーザからのフィードを受け付ける場合は「いいえ」を選択するこ"
+"とを推奨します。"
+
+msgid "Allow external resources in feed items"
+msgstr "フィード各記事のコンテンツ内に外部サイトのコンテンツを許可する"
+
+#, fuzzy
+msgid ""
+"Select whether or not to allow resources hosted outside the feed website to "
+"be displayed in feed items, for example external website images. For "
+"security reasons, it is highly recommended that you select no if accepting "
+"feeds from untrusted users."
+msgstr ""
+"フィード各記事のコンテンツ内に、フィードを提供するサイト以外の外部サイトに設"
+"置された画像ファイル等の埋め込みを許可するかどうかを設定します。信頼できない"
+"ユーザからのフィードを受け付ける場合は「いいえ」を選択することを推奨します。"
+
+#, fuzzy
+msgid "Default display preference of feed item author"
+msgstr "フィード各記事の作者名の表示設定"
+
+#, fuzzy
+msgid "Select how the author of each feed item should be displayed by default."
+msgstr "フィード各記事の作者名の表示方式を選択して下さい。"
+
+msgid ""
+"Display the author name of each feed item if available. Otherwise, display "
+"the feed owner username."
+msgstr ""
+"フィード各記事に作者名が設定されている場合は作者名を表示する。それ以外の場合"
+"にはフィード所有者のユーザ名を表示する。"
+
+msgid "Always display the feed owner username as the author."
+msgstr "常にフィード所有者のユーザ名を表示する。"
+
+msgid ""
+"The periodic time interval in number of days to check for new feed items:"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "User feeds require approval"
+msgstr ""
+
+msgid ""
+"Select yes (recommended) to always require administrator approval for user "
+"submitted feeds."
+msgstr ""
+
+msgid "Could not hide selected items"
+msgstr "選択されたフィード記事を非表示にできませんでした。"
+
+#, php-format
+msgid "%d items hidden successfully"
+msgstr "%d件のフィード記事を非表示にしました。"
+
+msgid "Could not unhide selected items"
+msgstr "選択されたフィード記事の非表示を解除できませんでした。"
+
+#, php-format
+msgid "%d items unhidden successfully"
+msgstr "%d件のフィード記事の非表示を解除しました。"
+
+msgid "Could not delete selected items"
+msgstr "選択されたフィード記事を削除できませんでした。"
+
+#, php-format
+msgid "%d items deleted successfully"
+msgstr "%d件のフィード記事を削除しました。"
+
+msgid "Are you sure you want to delete this feed item?"
+msgstr "このフィード記事を本当に削除しても良いですか？"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Remove feed"
+msgstr "フィードの削除"
+
+msgid "Are you sure you want to delete this feed and all its articles?"
+msgstr "このフィードおよびフィードの全ての記事を本当に削除しても良いですか？"
+
+msgid "Feed data submitted successfully."
+msgstr "フィード情報を送信しました。"
+
+msgid ""
+"Feed data submitted successfully. The submitted feed will be listed on the "
+"feed list page once approved by the administrators."
+msgstr ""
+"フィード情報を送信しました。フィードの情報およびコンテンツは管理者による承認"
+"後に正式に掲載されます。"
+
+msgid "Site url"
+msgstr ""
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Feed url"
+msgstr ""
+
+msgid "Favicon url"
+msgstr ""
+
+msgid "Favicon hide"
+msgstr ""
+
+msgid "Author pref"
+msgstr ""
+
+msgid "Allow image"
+msgstr ""
+
+msgid "Allow external resources"
+msgstr ""
+
+msgid "Host"
+msgstr "ホスト名"
+
+msgid "Invalid URI"
+msgstr ""
+
+msgid "Url"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Author link"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Feed owner"
+msgstr "フィード所有者"
+
+msgid ""
+"Enter the username of feed owner. Leave it blank to add a system owned feed."
+msgstr ""
+"フィード所有者のユーザ名を入力して下さい。システム所有のフィードの場合は空欄"
+"にしてください。"
+
+msgid "Favicon URL"
+msgstr ""
+
+msgid ""
+"Enter the URL of website favicon image. Leave it blank to let the system "
+"discover the URL automatically."
+msgstr ""
+"Favicon画像のURLを入力して下さい。Favicon画像のURLを自動検出する場合は空欄に"
+"してください。"
+
+msgid "Hide favicon"
+msgstr "Favicon画像を隠す"
+
+msgid "Select yes to prevent the feed favicon image from being displayed."
+msgstr "Favicon画像が表示されないようにするには「はい」を選択して下さい。"
+
+msgid "Favicon"
+msgstr ""
+
+msgid "Feed URL"
+msgstr "フィードURL"
+
+msgid ""
+"Enter the URL of feed. Leave it blank to let the system discover the URL "
+"automatically."
+msgstr ""
+"フィードのURLを入力して下さい。フィードURLを自動検出する場合は空欄にしてくだ"
+"さい。"
+
+msgid "URL"
+msgstr ""
+
+msgid "Enter the URL of website providing the feed."
+msgstr "フィードを提供するサイトのURLを入力してください。"
+
+msgid "Feed item author display preference"
+msgstr ""
+
+msgid "Select how the author of each feed item should be displayed."
+msgstr "フィード各記事の作者名の表示方式を選択して下さい。"
+
+msgid ""
+"Select whether or not to enable image tags in feed items. For security "
+"reasons, it is highly recommended that you select no if the feed website can "
+"not be fully trusted."
+msgstr ""
+"フィード各記事のコンテンツ内に記述されたimgタグを有効にするかどうかを設定しま"
+"す。信頼できないユーザからのフィードを受け付ける場合は「いいえ」を選択するこ"
+"とを推奨します。"
+
+msgid ""
+"Select whether or not to allow resources hosted outside the feed website to "
+"be displayed in feed items, for example external website images. For "
+"security reasons, it is highly recommended that you select no if the feed "
+"website can not be fully trusted."
+msgstr ""
+"フィード各記事のコンテンツ内に、フィードを提供するサイト以外の外部サイトに設"
+"置された画像ファイル等の埋め込みを許可するかどうかを設定します。信頼できない"
+"ユーザからのフィードを受け付ける場合は「いいえ」を選択することを推奨します。"
+
+msgid ""
+"Enter the domain name of the feed website. Any URI that does not contain the "
+"domain name below in the host part will be considered as an external URI. "
+"Note that setting this value to example.com will include all subdomains of "
+"example.com. However, setting this value to sub.example.com will not include "
+"example.com."
+msgstr ""
+"フィードを提供するサイトのホスト名を入力して下さい。入力されたホスト名が含ま"
+"れていないURLは全て外部サイトのURLとして扱われます。なお、example.comを指定し"
+"た場合、sub.example.comも含まれます。また、sub.example.comを指定した場合、"
+"example.comは含まれません。"
+
+msgid "Options"
+msgstr "オプション"
+
+msgid "User does not exist."
+msgstr ""
+
+msgid "The URL is already registered."
+msgstr "指定されたURLは既に登録済みです。"
+
+msgid "Feed URL is required"
+msgstr "フィードURLは必須です。"
+
+msgid "User with the specified username does not exist"
+msgstr "指定されたユーザ名のユーザは見つかりませんでした。"
+
+msgid "Invalid favicon URL."
+msgstr "Favicon画像のURLが正しくありません。"
+
+msgid "Display preference of feed item author"
+msgstr "フィード各記事の作者名の表示設定"
+
+msgid "Feeds"
+msgstr "フィード"
+
+msgid "Add feed"
+msgstr "フィードの追加"
+
+msgid "Edit feed"
+msgstr "フィードの編集"
+
+msgid "RSS"
+msgstr ""
+
+msgid "Delete feed item"
+msgstr "フィード記事の削除"
+
+msgid "Edit feed item"
+msgstr "フィード記事の編集"
+
+msgid "Group settings"
+msgstr ""
+
+msgid "Articles"
+msgstr "記事一覧"
+
+msgid "Settings"
+msgstr ""
+
+msgid "Email settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Add own feed"
+msgstr "自分のフィードを追加できる"
+
+msgid "Add own feed approved by default"
+msgstr "自分のフィードを承認済みとして追加できる"
+
+msgid "Add feed for any user"
+msgstr "全てのユーザのフィードを追加できる"
+
+msgid "Add feed for any user, approved by default"
+msgstr "全てのユーザのフィードを承認済みとして追加できる"
+
+msgid "Edit own feed data"
+msgstr "自分のフィードを編集できる"
+
+msgid "Edit any feed data"
+msgstr "全てのユーザのフィードを編集できる"
+
+msgid "Allow images in own feed"
+msgstr "自分のフィードのコンテンツ内にある画像を許可できる"
+
+msgid "Allow images in any feed"
+msgstr "全てのフィードのコンテンツ内にある画像を許可できる"
+
+msgid "Allow external resources in own feed"
+msgstr ""
+"自分のフィードのコンテンツ内にある外部サイトのコンテンツの表示を許可できる"
+
+msgid "Allow external resources in any feed"
+msgstr ""
+"全てのフィードのコンテンツ内にある外部サイトのコンテンツの表示を許可できる"
+
+msgid "Edit host name of own feed"
+msgstr "自分のフィードのホスト名を編集できる"
+
+msgid "Edit host name of any feed"
+msgstr "全てのフィードのホスト名を編集できる"
+
+msgid "Delete own feed"
+msgstr "自分のフィードを削除できる"
+
+msgid "Delete any feed"
+msgstr "全てのフィードを削除できる"
+
+msgid "Edit own feed item"
+msgstr "自分のフィードのフィード記事を編集できる"
+
+msgid "Edit any feed item"
+msgstr "全てのフィードのフィード記事を編集できる"
+
+msgid "Edit body of own feed item"
+msgstr "自分のフィードのフィード記事の本文を編集できる"
+
+msgid "Edit body of any feed item"
+msgstr "全てのフィードのフィード記事の本文を編集できる"
+
+msgid "Edit author name of own feed item"
+msgstr "自分のフィードのフィード記事の作者名を編集できる"
+
+msgid "Edit author name of any feed item"
+msgstr "全てのフィードのフィード記事の作者名を編集できる"
+
+msgid "Edit author link of own feed item"
+msgstr "自分のフィードのフィード記事の作者リンクを編集できる"
+
+msgid "Edit author link of any feed item"
+msgstr "全てのフィードのフィード記事の作者リンクを編集できる"
+
+msgid "Hide own feed item"
+msgstr "自分のフィードのフィード記事を非表示にできる"
+
+msgid "Hide any feed item"
+msgstr "全てのフィードのフィード記事を非表示にできる"
+
+msgid "Delete own feed item"
+msgstr "自分のフィードのフィード記事を削除できる"
+
+msgid "Delete any feed item"
+msgstr "全てのフィードのフィード記事を削除できる"
+
+msgid "Recent articles"
+msgstr "最新の記事"
+
+#, fuzzy
+msgid "Displays registered feeds."
+msgstr "最近更新されたフィードを表示します。"
+
+msgid "Displays recently published feed articles."
+msgstr "最新のフィード記事を表示します。"
+
+#, fuzzy
+msgid "Number of feeds to display"
+msgstr "表示するフィード件数"
+
+msgid "Sort feeds by:"
+msgstr ""
+
+#, fuzzy
+msgid "Last updated first"
+msgstr "最終更新: %s"
+
+msgid "Number of recently published articles to display"
+msgstr "表示する記事数"
+
+#, fuzzy
+msgid "Newest"
+msgstr "新着フィード"
+
+#, fuzzy
+msgid "Active"
+msgstr "最新のフィード"
+
+msgid "Updated on"
+msgstr ""
+
+msgid "My blogs"
+msgstr "ブログ"
+
+msgid "Displays rencent feed articles published by the user."
+msgstr "ユーザの最新のフィード記事を表示します。"
+
+msgid "Number of recent feed items to display"
+msgstr "表示する記事数"
+
+msgid "List all"
+msgstr "全て表示"
+
+msgid "List approved"
+msgstr "承認済み"
+
+msgid "List pending"
+msgstr "未承認"
+
+msgid "Feed title, ascending"
+msgstr "タイトル（昇順）"
+
+msgid "Feed title, descending"
+msgstr "タイトル（降順）"
+
+msgid "Date of last published article, ascending"
+msgstr "最新公開記事の古いものから"
+
+msgid "Date of last published article, descending"
+msgstr "最新公開記事の新しいものから"
+
+msgid "Date last fetched, ascending"
+msgstr "取得日時の古いものから"
+
+msgid "Date last fetched, descending"
+msgstr "取得日時の新しいものから"
+
+msgid "Date last pinged, ascending"
+msgstr "更新ping受信日時の古いのものから"
+
+msgid "Date last pinged, descending"
+msgstr "更新ping受信日時の新しいものから"
+
+msgid "Date added, ascending"
+msgstr "追加日時の古いものから"
+
+msgid "Date added, descending"
+msgstr "追加日時の新しいものから"
+
+msgid "Date added"
+msgstr "追加日時"
+
+msgid "Last fetched"
+msgstr "取得日時"
+
+msgid "Last pinged"
+msgstr "更新ping受信"
+
+msgid "Items"
+msgstr "記事数"
+
+msgid "Fetch articles"
+msgstr "記事を取得する"
+
+msgid "Empty"
+msgstr "空にする"
+
+#, php-format
+msgid "by %s"
+msgstr ""
+
+msgid "View"
+msgstr "表示"
+
+msgid "Listing items"
+msgstr "記事一覧"
+
+msgid "List hidden"
+msgstr "非表示"
+
+msgid "Published date, descending"
+msgstr "公開日時の新しいものから"
+
+msgid "Published date, ascending"
+msgstr "公開日時の古いものから"
+
+msgid "Hide"
+msgstr "非表示にする"
+
+msgid "Unhide"
+msgstr "非表示を解除"
+
+#, php-format
+msgid " in %s"
+msgstr ""
+
+msgid "Feed"
+msgstr "フィード"
+
+msgid "View articles of this blog"
+msgstr ""
+
+#, fuzzy, php-format
+msgid "1 article"
+msgid_plural "%d articles"
+msgstr[0] "記事一覧"
+
+msgid "Visit website"
+msgstr "サイトを開く"
+
+#, fuzzy
+msgid "View original article"
+msgstr "元の記事を見る"
+
+msgid "Original article"
+msgstr "元の記事を見る"
+
+#, php-format
+msgid "Aggregation of blogs submitted by users at %s"
+msgstr ""
+
+#, php-format
+msgid "%s's blog"
+msgstr ""
+
+#, php-format
+msgid "%s's recent published blog articles"
+msgstr ""
+
+#~ msgid "Blogs"
+#~ msgstr "ブログ一覧"
+
+#~ msgid "Blog"
+#~ msgstr "ブログ"
+
+#~ msgid "%d items"
+#~ msgstr "%d件の記事"
+
+#~ msgid "Displays newly added feeds."
+#~ msgstr "最近追加されたフィードを表示します。"
+
+#~ msgid "Number of newly added feeds to display"
+#~ msgstr "表示するフィード件数"

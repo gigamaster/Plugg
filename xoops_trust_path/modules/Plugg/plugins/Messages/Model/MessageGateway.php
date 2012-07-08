@@ -1,0 +1,4 @@
+<?php
+class Plugg_Messages_Model_MessageGateway extends Plugg_Messages_Model_Base_MessageGateway
+{
+}

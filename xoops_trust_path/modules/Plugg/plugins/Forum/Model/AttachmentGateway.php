@@ -1,0 +1,4 @@
+<?php
+class Plugg_Forum_Model_AttachmentGateway extends Plugg_Forum_Model_Base_AttachmentGateway
+{
+}

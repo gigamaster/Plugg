@@ -1,0 +1,4 @@
+<?php
+class Plugg_System_Model_DependencyGateway extends Plugg_System_Model_Base_DependencyGateway
+{
+}
