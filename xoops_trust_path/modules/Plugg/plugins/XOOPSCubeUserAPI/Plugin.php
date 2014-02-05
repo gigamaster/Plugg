@@ -128,7 +128,8 @@ class Plugg_XOOPSCubeUserAPI_Plugin extends Plugg_Plugin implements Plugg_User_M
 
     public function userFetchIdentityByUsername($userName)
     {
-        $criteria = new Criteria('uname', mysql_real_escape_string($userName));
+        $db = $this->getDB();
+        $criteria = new Criteria('uname', $db->escapeString($userName));
         $criteria->setLimit(1);
         $criteria->setStart(0);
         $xoops_users = xoops_gethandler('member')->getUsers($criteria, false);

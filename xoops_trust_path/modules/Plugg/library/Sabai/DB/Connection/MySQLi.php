@@ -38,6 +38,7 @@ class Sabai_DB_Connection_MySQLi extends Sabai_DB_Connection_MySQL
     public function __construct(array $config)
     {
         parent::__construct($config);
+        $this->_scheme = 'MySQLi';
         $this->_resourcePort = isset($config['port']) ? intval($config['port']) : 3306;
     }
     

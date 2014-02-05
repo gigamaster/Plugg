@@ -36,7 +36,7 @@ class Sabai_DB_MySQLi extends Sabai_DB_MySQL
 
     public function __construct(Sabai_DB_Connection_MySQLi $connection)
     {
-        parent::__construct($config);
+        parent::__construct($connection);
     }
 
     public function beginTransaction()
@@ -60,7 +60,7 @@ class Sabai_DB_MySQLi extends Sabai_DB_MySQL
 
     protected function _doQuery($query)
     {
-        if ($rs = mysqli_query($query, $this->_connection->getResourceId())) {
+        if ($rs = mysqli_query($this->_connection->getResourceId(), $query)) {
             if (!class_exists('Sabai_DB_Rowset_MySQLi', false)) require 'Sabai/DB/Rowset/MySQLi.php';
 
             return new Sabai_DB_Rowset_MySQLi($rs);
@@ -71,7 +71,7 @@ class Sabai_DB_MySQLi extends Sabai_DB_MySQL
 
     public function exec($sql, $useAffectedRows = true)
     {
-        if (!mysqli_query($sql, $this->_connection->getResourceId())) {
+        if (!mysqli_query($this->_connection->getResourceId(), $sql)) {
             Sabai_Log::warn(sprintf('SQL "%s" failed. Error: "%s"', $sql, $this->lastError()));
             return false;
         }
