@@ -213,6 +213,7 @@ abstract class Sabai_Application_Controller
     
     final public function __set($name, $value)
     {
+        is_object($this->_application) || $this->_application = new stdClass();
         $this->_application->$name = $value;
     }
     

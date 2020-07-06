@@ -199,7 +199,7 @@ class Plugg_SimpleSearch_Plugin extends Plugg_Plugin implements Plugg_Search_Eng
      */
     protected function getDBSchema()
     {
-        if ($this->getDB()->getScheme() == 'MySQL') {
+        if (in_array($this->getDB()->getScheme(), array('MySQL', 'MySQLi'))) {
             return Sabai_DB_Schema::factory($this->getDB(), array(), array(), array('type' => 'MyISAM'));
         }
 
